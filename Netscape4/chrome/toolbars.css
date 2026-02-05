@@ -1,3 +1,8 @@
+#main-window {
+	--zilla-toolbar-border-color-dark: #999;
+	--zilla-toolbar-border-color-light: #eee;
+}
+
 /* URL Bar */
 
 #nav-bar,
@@ -8,9 +13,23 @@
 #nav-bar {
 	padding-top: 4px !important;
 	padding-bottom: 4px !important;
-	border-bottom: 1px solid grey !important;
+	/*border-bottom: 1px solid grey !important;*/
 }
 
 #PersonalToolbar {
-	border-top: 1px solid white !important;
+	/*border-top: 1px solid white !important;*/
+}
+
+
+
+/* Toolbar handles and backgrounds */
+#PersonalToolbar,#toolbar-menubar,#nav-bar{
+  margin-top: 0px !important;
+  padding-bottom: 2px !important;
+  padding-left: 12px !important;
+  border: none;
+  border-top: 1px solid var(--zilla-toolbar-border-color-light) !important;
+  border-bottom: 1px solid var(--zilla-toolbar-border-color-dark) !important;
+  background: transparent url('image/toolbar_handle.png') left top no-repeat !important;
+  background-size: 12px 100% !important;
 }
