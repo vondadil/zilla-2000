@@ -1,0 +1,14 @@
+/* URL Bar */
+
+#nav-bar,
+#PersonalToolbar {
+	background-color: transparent !important;
+}
+
+#nav-bar {
+	border-bottom: 1px solid grey !important;
+}
+
+#PersonalToolbar {
+	border-top: 1px solid white !important;
+}
