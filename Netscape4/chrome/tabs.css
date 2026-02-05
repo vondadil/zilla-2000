@@ -1,0 +1,29 @@
+#main-window {
+	--tab-min-height: 22px !important;
+	--tab-border-radius: 4px !important;
+}
+
+#TabsToolbar {
+	border-top: 2px solid grey !important;
+	border-bottom: 1px solid grey !important;
+	padding-top: 2px !important;
+}
+
+.tab-background {
+	margin-block: unset !important;
+	background-color: transparent;
+	box-shadow: unset !important;
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	border: 1px solid white;
+	border-right: 2px solid grey;
+	border-bottom: none;
+
+	&:is([selected], [multiselected]) {
+		background-color: transparent !important;
+		box-shadow: unset !important;
+	}
+}
+
+.tab-content {
+}
