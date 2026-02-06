@@ -1,5 +1,7 @@
+
 #main-window {
     --toolbarbutton-border-radius: 0 !important;
+    --toolbar-field-background-color: transparent !important;
 
     /* Windows Style input borders, taken from https://jdan.github.io/98.css/ */
     --zilla-win98-button-border-shadow:
@@ -7,23 +9,68 @@
         inset 1px 1px #fff,
         inset -2px -2px grey,
         inset 2px 2px #dfdfdf;
+    
     --zilla-win98-input-border-shadow:
         inset -1px -1px #fff,
         inset 1px 1px grey,
         inset -2px -2px #dfdfdf,
-        inset 2px 2px #0a0a0a
+        inset 2px 2px #0a0a0a;
+
+    --zilla-win98-input-border-shadow:
+        inset -2px -2px #dfdfdf,
+        inset 2px 2px #0a0a0a;
 }
 
 
-#urlbar {
-    border: none;
-    background: white !important;
-    box-shadow: var(--zilla-win98-input-border-shadow) !important;
+#urlbar, #searchbar {
+    border: none !important;
+    background: transparent !important;
+}
 
+#searchbar {
+    background: white !important;
+    box-shadow: var(--zilla-win98-input-border-shadow);   
 }
 
 .urlbar-input-container {
     border: none !important;
     background: transparent;
-    padding: unset !important;
+    background: white;
+    box-shadow: var(--zilla-win98-input-border-shadow);
+}
+.urlbar-input-box {
+
+    /*margin-left: -6px !important;
+    padding-left: 6px;*/
+}
+
+.urlbar-background {
+    background-color: transparent !important;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+
+/* Search Breakout Opened */
+#urlbar[breakout-extend="true"] {
+    
+
+    .urlbarView {
+        background: var(--zilla-ui-bg-color);
+         box-shadow: var(--zilla-win98-button-border-shadow);
+    }
+}
+
+
+/* Search Switchers */
+
+#urlbar-searchmode-switcher {
+    background: var(--zilla-ui-bg-color) !important;
+    box-shadow: var(--zilla-win98-button-border-shadow);
+}
+.searchmode-switcher-chicklet {
+    margin: 3px;
+    padding-left: 6px;
+    height: unset !important;
+    border: 1px solid darkgray;
+    /*box-shadow: var(--zilla-win98-button-border-shadow);*/
 }
