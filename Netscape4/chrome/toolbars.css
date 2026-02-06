@@ -33,3 +33,6 @@
   background: transparent url('image/toolbar_handle.png') left top no-repeat !important;
   background-size: 12px 100% !important;
 }
+#toolbar-menubar {
+	background: transparent url('image/toolbar_handle_top.png') left top no-repeat !important;
+}
