@@ -62,7 +62,7 @@
     box-shadow: var(--zilla-win98-button-border-shadow);
 }
 .searchmode-switcher-chicklet {
-    margin: 3px;
+    margin: 4px 3px 3px;
     padding-left: 6px;
     height: unset !important;
     border: 1px solid darkgray;
