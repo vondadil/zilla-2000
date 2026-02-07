@@ -11,15 +11,16 @@
   border: 1px solid #444;
 }
 
+#PanelUI-button:has(.toolbarbutton-1[open="true"]) {
+  box-shadow: var(--zilla-win98-button-border-shadow-active);
+}
+
 #PanelUI-button:hover,#PanelUI-button:active,#PanelUI-button:focus {
   border-color: black;
 }
 
 #PanelUI-button:active {
   box-shadow: var(--zilla-win98-button-border-shadow-active);
-}
-
-#PanelUI-button .toolbarbutton-1 {
 }
 
 #navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button,
