@@ -8,6 +8,7 @@
   margin-top: -2px !important;
   margin-bottom: 2px !important;
   margin-right: 3px !important;
+  border: 1px solid black;
 }
 
 #PanelUI-button .toolbarbutton-1 {

@@ -1,11 +1,10 @@
-
 #main-window {
     --toolbarbutton-border-radius: 0 !important;
     --toolbar-field-background-color: transparent !important;
 
     /* Windows Style input borders, taken from https://jdan.github.io/98.css/ */
     --zilla-win98-button-border-shadow:
-        inset -1px -1px #0a0a0a,
+        inset -1px -1px #666,
         inset 1px 1px #fff,
         inset -2px -2px grey,
         inset 2px 2px #dfdfdf;
@@ -13,10 +12,6 @@
     --zilla-win98-input-border-shadow:
         inset -1px -1px #fff,
         inset 1px 1px grey,
-        inset -2px -2px #dfdfdf,
-        inset 2px 2px #0a0a0a;
-
-    --zilla-win98-input-border-shadow:
         inset -2px -2px #dfdfdf,
         inset 2px 2px #0a0a0a;
 }
