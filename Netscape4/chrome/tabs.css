@@ -6,7 +6,8 @@
 #TabsToolbar {
 	border-top: 2px solid grey !important;
 	border-bottom: 1px solid grey !important;
-	padding-top: 2px !important;
+	padding-top: 6px !important;
+	padding-left: 4px;
 }
 
 .tab-background {
