@@ -405,27 +405,27 @@ toolbar:not(#TabsToolbar) #stop-reload-button[animate] > #reload-button[displays
   list-style-image: url("image/netscape_history_hover.png") !important;
 }
 
-#PanelUI-button, #PanelUI-button:hover {
+/*#PanelUI-button, #PanelUI-button:hover {
   margin-right: 1px !important;
   background-color: unset !important;
   background-image: url("image/netscape.png") !important;
   background-size: 95% !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-}
+}*/
 
 #PanelUI-button .toolbarbutton-badge {
   visibility: collapse !important;
 }
 
-#PanelUI-button .toolbarbutton-1 {
+/*#PanelUI-button .toolbarbutton-1 {
   padding: 0px !important;
   padding-left: 3px !important;
   padding-right: 3px !important;
   border: 3px solid !important;
   border-image: url("image/toolbarbutton.png") !important;
   border-image-slice: 3 3 3 3 !important;
-}
+}*/
 
 #PanelUI-menu-button .toolbarbutton-icon {
   /*border: none !important;

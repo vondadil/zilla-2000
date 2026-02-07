@@ -1,0 +1,19 @@
+#PanelUI-button, #PanelUI-button:hover {
+  background-color: unset !important;
+  background-image: url("img/mozilla/throbber/throbber-single.gif") !important;
+  background-size: 95% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  box-shadow: var(--zilla-win98-button-border-shadow);
+  margin-top: -2px !important;
+  margin-bottom: 2px !important;
+  margin-right: 3px !important;
+}
+
+#PanelUI-button .toolbarbutton-1 {
+}
+
+#navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button,
+#navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button:hover {
+  background-image: url("img/mozilla/throbber/throbber-anim.gif") !important;
+}
