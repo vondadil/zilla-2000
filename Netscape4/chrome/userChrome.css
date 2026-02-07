@@ -1,6 +1,7 @@
 @import "external/tabs_on_bottom_v2.css";
 
 /* Widget themeing */
+@import "variables.css";
 @import "icons.css";
 @import "mainwindow.css";
 @import "tabs.css";

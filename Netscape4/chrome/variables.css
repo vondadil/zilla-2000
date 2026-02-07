@@ -1,0 +1,29 @@
+/* Windows Style input borders, taken from https://jdan.github.io/98.css/ */
+:root, #main-window {
+    /* -- Button/Input Box/Border Shadows -- */
+    --zilla-win98-button-border-shadow:
+        inset -1px -1px #666,
+        inset 1px 1px #fff,
+        inset -2px -2px grey,
+        inset 2px 2px #dfdfdf;
+    
+    --zilla-win98-input-border-shadow:
+        inset -1px -1px #fff,
+        inset 1px 1px grey,
+        inset -2px -2px #dfdfdf,
+        inset 2px 2px #0a0a0a;
+
+
+    /* -- Main Window Background -- */
+    /* Mozilla / Windows XP Style (light beige): */
+    --zilla-ui-bg-color: #d4d0c8;
+
+    /* Netscape / Windows 95 Style (grey): */
+    /*--zilla-ui-bg-color: #c0c0c0;*/
+
+
+
+    /* -- Toolbar Border Colors -- */
+    --zilla-toolbar-border-color-dark: #999;
+    --zilla-toolbar-border-color-light: #eee;
+}

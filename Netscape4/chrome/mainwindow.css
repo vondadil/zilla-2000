@@ -1,12 +1,4 @@
-:root {
-    
-    /* - Main Window Background - */
-    /* Mozilla / Windows XP Style (light beige): */
-    --zilla-ui-bg-color: #d4d0c8;
 
-    /* Netscape / Windows 95 Style (grey): */
-    /*--zilla-ui-bg-color: #c0c0c0;*/
-}
 #navigator-toolbox {
     background-color: var(--zilla-ui-bg-color) !important;
 }
