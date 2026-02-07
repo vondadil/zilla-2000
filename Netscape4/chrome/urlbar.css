@@ -61,6 +61,9 @@
     background: var(--zilla-ui-bg-color) !important;
     box-shadow: var(--zilla-win98-button-border-shadow);
 }
+#urlbar-searchmode-switcher:active,#urlbar-searchmode-switcher[open="true"] {
+    box-shadow: var(--zilla-win98-button-border-shadow-active);
+}
 .searchmode-switcher-chicklet {
     margin: 4px 3px 3px;
     padding-left: 6px;

@@ -15,6 +15,10 @@
   border-color: black;
 }
 
+#PanelUI-button:active {
+  box-shadow: var(--zilla-win98-button-border-shadow-active);
+}
+
 #PanelUI-button .toolbarbutton-1 {
 }
 
