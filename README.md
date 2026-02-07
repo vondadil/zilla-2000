@@ -8,6 +8,8 @@ Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95)
 
 ![Dev-Screenshot of Zilla2000](https://github.com/javos/zilla-2000/blob/zilla-rewrite/screenshot.png?raw=true)
 
+Special Thanks to grassmunk (Chicago95), mathewmx86 (RetroThemesFirefox), MrOtherGuy (Firefox CSS Hacks) and jdan (98.css) for inspiration and previous work :) 
+
 # Installation
 
 1. Enable the Title Bar (Right-Click on the empty space in the Main Toolbar, click `Customize` and enable the `Title Bar` checkbox on the bottom)
