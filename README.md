@@ -2,7 +2,7 @@
 
 **Work in Progress**
 
-A rewrite of the Mozilla/Netscape Classic theme from matthewmx86/RetroThemesFirefox for modern 2026 Firefox.
+A rewrite of the Mozilla/Netscape Classic theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox) for modern 2026 Firefox.
 
 **DO NOT USE YET - Still in early development**
 
