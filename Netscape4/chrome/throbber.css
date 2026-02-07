@@ -27,3 +27,11 @@
 #navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button:hover {
   background-image: url("img/throbber/throbber-anim.gif") !important;
 }
+
+#PanelUI-button .toolbarbutton-badge {
+  visibility: collapse !important;
+}
+
+#PanelUI-menu-button .toolbarbutton-icon {
+  visibility: collapse !important;
+}
