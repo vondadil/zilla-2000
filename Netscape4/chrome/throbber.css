@@ -1,6 +1,6 @@
 #PanelUI-button, #PanelUI-button:hover {
   background-color: unset !important;
-  background-image: url("img/mozilla/throbber/throbber-single.gif") !important;
+  background-image: url("img/throbber/throbber-single.gif") !important;
   background-size: 95% !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -15,5 +15,5 @@
 
 #navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button,
 #navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button:hover {
-  background-image: url("img/mozilla/throbber/throbber-anim.gif") !important;
+  background-image: url("img/throbber/throbber-anim.gif") !important;
 }
