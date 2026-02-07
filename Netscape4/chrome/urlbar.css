@@ -65,9 +65,6 @@
         height: var(--urlbar-height) !important;
         margin-top: 5px !important;
     }
-    #urlbar-searchmode-switcher {
-        top: 2px !important;
-    }
 }
 
 
