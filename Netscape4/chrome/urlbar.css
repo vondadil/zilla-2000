@@ -47,11 +47,23 @@
 
 /* Search Breakout Opened */
 #urlbar[breakout-extend="true"] {
+    margin-left: unset !important;
+    width: var(--urlbar-width) !important;
+    height: var(--urlbar-height) !important;
     
 
     .urlbarView {
-        background: var(--zilla-ui-bg-color);
-         box-shadow: var(--zilla-win98-button-border-shadow);
+        background: white;
+        border: 1px solid black;
+        /*background: var(--zilla-ui-bg-color);*/
+         /*box-shadow: var(--zilla-win98-button-border-shadow);*/
+    }
+
+    .urlbar-input-container {
+        padding-block: 0 !important;
+        padding-inline: 0 !important;
+        height: var(--urlbar-height) !important;
+        margin-top: 5px !important;
     }
 }
 
