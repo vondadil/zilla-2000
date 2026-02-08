@@ -1,12 +1,17 @@
 #main-window {
     --toolbarbutton-border-radius: 0 !important;
     --toolbar-field-background-color: transparent !important;
+    --toolbar-field-focus-border-color: transparent !important;
 }
 
 
 #urlbar, #searchbar {
     border: none !important;
     background: transparent !important;
+}
+
+#urlbar:is([focused]),#urlbar:focus,#urlbar:focus-visible {
+  outline: none !important;
 }
 
 #searchbar {
@@ -21,9 +26,7 @@
     box-shadow: var(--zilla-win98-input-border-shadow);
 }
 .urlbar-input-box {
-
-    /*margin-left: -6px !important;
-    padding-left: 6px;*/
+    padding-left: 6px;
 }
 
 .urlbar-background {
@@ -56,7 +59,7 @@
         padding-block: 1px !important;
         padding-inline: 1px !important;
         height: var(--urlbar-height) !important;
-        margin-top: 4px !important;
+        margin-top: 10px !important;
     }
 }
 

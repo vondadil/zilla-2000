@@ -1,4 +1,55 @@
-/* URL Bar */
+/* Tool Bar Labels */
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/toolbarbuttons_icon+label.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+:root {
+  --zilla-toolbar-label-height: 16px;
+}
+
+/* Shows both icon and label for toolbarbuttons */
+
+#nav-bar .toolbarbutton-1[label]{
+  flex-direction: column;
+  align-items: center !important;
+}
+
+#nav-bar .toolbarbutton-1[label]:not([disabled]):hover{ background-color: var(--toolbarbutton-hover-background) !important; }
+
+#nav-bar .toolbarbutton-1[label] > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1[label] > .toolbarbutton-badge-stack{
+  padding: var(--toolbarbutton-inner-padding) !important;
+  padding-bottom: 0px !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#nav-bar .toolbarbutton-1[label] > .toolbarbutton-text {
+  display: flex !important;
+  padding-top: 0px !important;
+  background-color: transparent !important;
+  overflow: hidden;
+  width: 11ch;
+}
+#nav-bar .toolbarbutton-1[label] > .toolbarbutton-text::before{
+  margin-inline: auto;
+}
+:root:not([uidensity="compact"]) #nav-bar .toolbarbutton-1[label] > .toolbarbutton-text{ padding: 2px !important; }
+
+
+
+
+#nav-bar .toolbarbutton-1[label] > .toolbarbutton-badge-stack {
+  height: calc(var(--toolbarbutton-inner-padding) + var(--zilla-toolbar-label-height)) !important;
+}
+#nav-bar .toolbarbutton-1[label] > .toolbarbutton-text {
+  min-height: var(--zilla-toolbar-label-height) !important;
+}
+
+
+
+/* Main Tool Bar */
 
 #nav-bar,
 #PersonalToolbar {
@@ -30,4 +81,12 @@
 }
 #toolbar-menubar {
 	background: transparent url('image/toolbar_handle_top.png') left top no-repeat !important;
+}
+
+
+/* Tool Bar Icons */
+
+toolbar .toolbarbutton-1:not([disabled]):hover {
+  background: var(--zilla-ui-bg-color) !important;
+  box-shadow: var(--zilla-win98-button-border-shadow);
 }
