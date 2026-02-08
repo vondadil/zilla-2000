@@ -201,3 +201,25 @@ See the above repository for updates as well as full license text. */
     box-shadow: var(--zilla-win98-button-border-shadow-active);
   }
 }
+
+
+
+
+
+/* Bookmarks Bar */
+
+#PersonalToolbar {
+  .bookmark-item {
+    &:hover {
+      background: none !important;
+      color: blue !important;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    &:active {
+      position: relative;
+      top: 1px;
+      left: 1px;
+    }
+  }
+}
