@@ -38,8 +38,4 @@
 /* slightly purple Window Color for Private Browsing */
 #main-window[privatebrowsingmode] {
     --zilla-ui-bg-color: #CCBFE0;
-    --toolbar-color-scheme: light !important;
-
-    color-scheme: light !important;
-
 }
