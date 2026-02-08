@@ -30,7 +30,7 @@
 
 
     /* -- Toolbar Border Colors -- */
-    --zilla-toolbar-border-color-dark: #999;
+    --zilla-toolbar-border-color-dark: #888;
     --zilla-toolbar-border-color-verydark: black;
-    --zilla-toolbar-border-color-light: #eee;
+    --zilla-toolbar-border-color-light: #efefef;
 }
