@@ -1,4 +1,4 @@
-#main-window {
+:root {
 	--tab-min-height: 22px !important;
 	--tab-border-radius: 4px !important;
 }
@@ -10,21 +10,33 @@
 	padding-left: 4px;
 }
 
-.tab-background {
-	margin-block: unset !important;
-	background-color: transparent;
-	box-shadow: unset !important;
-	border-bottom-left-radius: 0 !important;
-	border-bottom-right-radius: 0 !important;
-	border: 1px solid white;
-	border-right: 2px solid grey;
-	border-bottom: none;
-
-	&:is([selected], [multiselected]) {
-		background-color: rgba(255,255,255,0.3) !important;
+/* Horizontal Tabs */
+#tabbrowser-tabs:not([orient="vertical"]) {
+	.tab-background {
+		margin-block: unset !important;
+		background-color: transparent;
 		box-shadow: unset !important;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+		border: 1px solid white;
+		border-right: 2px solid grey;
+		border-bottom: none;
+
+		&:is([selected], [multiselected]) {
+			background-color: rgba(255,255,255,0.3) !important;
+			box-shadow: unset !important;
+		}
+	}
+
+	.tab-content {
 	}
 }
 
-.tab-content {
+/* Vertical Tabs */
+#tabbrowser-tabs[orient="vertical"] {
+
+	.tab-background, &:is([selected], [multiselected]) {
+		background-color: var(--zilla-ui-bg-color);
+		box-shadow: var(--zilla-win98-button-border-shadow) !important;
+	}
 }
