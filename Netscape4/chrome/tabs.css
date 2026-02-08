@@ -4,14 +4,45 @@
 }
 
 #TabsToolbar {
-	border-top: 2px solid grey !important;
+	border-top: none !important;
 	border-bottom: 1px solid grey !important;
-	padding-top: 6px !important;
+	box-shadow: inset 0 1px rgba(0,0,0,0.25);
+	padding-top: 2px !important;
 	padding-left: 4px;
 }
 
 /* Horizontal Tabs */
+
+
+
 #tabbrowser-tabs:not([orient="vertical"]) {
+	#tabbrowser-arrowscrollbox {
+	position: relative;
+	padding-bottom: 3px;
+
+	&:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 1px;
+		left: 0;
+		bottom: 3px;
+		z-index: 4;
+		background: white;
+	}
+
+	.tabbrowser-tab {
+		position: relative;
+		z-index: 1;
+		bottom: -2px;
+	}
+	.tabbrowser-tab:is([selected="true"]) {
+		position: relative;
+		z-index: 5;
+		bottom: -2px;
+	}
+}
+
 	.tab-background {
 		margin-block: unset !important;
 		background-color: transparent;
@@ -21,9 +52,10 @@
 		border: 1px solid white;
 		border-right: 2px solid grey;
 		border-bottom: none;
+		background-color: var(--zilla-ui-bg-color) !important;
 
 		&:is([selected], [multiselected]) {
-			background-color: rgba(255,255,255,0.3) !important;
+			/*background-color: rgba(255,255,255,0.3) !important;*/
 			box-shadow: unset !important;
 		}
 	}
@@ -40,3 +72,5 @@
 		box-shadow: var(--zilla-win98-button-border-shadow) !important;
 	}
 }
+
+
