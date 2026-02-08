@@ -2,7 +2,7 @@
 
 **Work in Progress**
 
-A rewrite of the Mozilla/Netscape Classic theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox) for modern 2026 Firefox.
+A Mozilla/Netscape Classic theme for modern Firefox
 
 **DO NOT USE YET - Still in early development**
 
@@ -11,6 +11,8 @@ Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95)
 ![Dev-Screenshot of Zilla2000](https://github.com/javos/zilla-2000/blob/zilla-rewrite/screenshot.png?raw=true)
 
 Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
+
+Based on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
 
 # Installation
 
