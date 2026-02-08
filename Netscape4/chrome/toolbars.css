@@ -76,11 +76,10 @@ See the above repository for updates as well as full license text. */
   border: none;
   border-top: 1px solid var(--zilla-toolbar-border-color-light) !important;
   border-bottom: 1px solid var(--zilla-toolbar-border-color-dark) !important;
-  background: transparent url('image/toolbar_handle.png') left top no-repeat !important;
-  background-size: 12px 100% !important;
+  background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
 }
 #toolbar-menubar {
-	background: transparent url('image/toolbar_handle_top.png') left top no-repeat !important;
+	background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
 }
 
 
