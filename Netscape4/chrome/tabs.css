@@ -74,3 +74,33 @@
 }
 
 
+
+
+/* Tab Bar Toolbar buttons */
+
+
+#TabsToolbar {
+
+	.toolbarbutton-1,
+	#firefox-view-button {
+		min-width: 5ch;
+
+		&:hover, &[open], &:active {
+			/* border-color: var(--zilla-toolbar-border-color-verydark); */
+			border-color: transparent;
+
+			.toolbarbutton-icon,
+			.toolbarbutton-badge-stack {
+				background: transparent !important;
+				box-shadow: unset !important;
+				border: unset !important
+
+			}
+		}
+	}
+
+	#firefox-view-button[open] {
+		background-color: var(--zilla-ui-bg-color) !important;
+		box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
+	}
+}

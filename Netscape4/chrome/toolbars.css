@@ -99,31 +99,23 @@ See the above repository for updates as well as full license text. */
 
 /* Tool Bar Icons */
 
-.toolbarbutton-1 {
-  border: 1px solid transparent;
-}
-
-.toolbarbutton-1:not([disabled]):hover {
-  background: var(--zilla-ui-bg-color) !important;
-  box-shadow: var(--zilla-win98-button-border-shadow);
-  border-color: black;
-}
-
-.toolbarbutton-1:not([disabled])[open="true"],
-.toolbarbutton-1:not([disabled]):active {
-  background: var(--zilla-ui-bg-color) !important;
-  box-shadow: var(--zilla-win98-button-border-shadow-active);
-  ;
-}
-
-#nav-bar {
-  .toolbaritem-combined-buttons {
-    align-items: stretch !important;
+#nav-bar,
+#TabsToolbar {
+  .toolbarbutton-1 {
+    border: 1px solid transparent;
   }
 
-  .toolbarbutton-text {
-    display: flex !important;
-    align-items: flex-end;
+  .toolbarbutton-1:not([disabled]):hover {
+    background: var(--zilla-ui-bg-color) !important;
+    box-shadow: var(--zilla-win98-button-border-shadow);
+    border-color: black;
+  }
+
+  .toolbarbutton-1:not([disabled])[open="true"],
+  .toolbarbutton-1:not([disabled]):active {
+    background: var(--zilla-ui-bg-color) !important;
+    box-shadow: var(--zilla-win98-button-border-shadow-active);
+    ;
   }
 }
 
@@ -135,6 +127,19 @@ See the above repository for updates as well as full license text. */
   max-width: var(--zilla-toolbar-button-icon-size) !important;
   max-height: var(--zilla-toolbar-button-icon-size) !important;
 }*/
+
+#nav-bar {
+  .toolbarbutton-1 {
+    .toolbaritem-combined-buttons {
+      align-items: stretch !important;
+    }
+
+    .toolbarbutton-text {
+      display: flex !important;
+      align-items: flex-end;
+    }
+  }
+}
 
 #back-button,
 #forward-button,
