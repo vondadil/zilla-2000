@@ -138,7 +138,9 @@ See the above repository for updates as well as full license text. */
 
 #back-button,
 #forward-button,
-#reload-button {
+#reload-button,
+#stop-button,
+#print-button {
   &,.toolbarbutton-1&[label] {
     > .toolbarbutton-icon {
       list-style-image: none;
@@ -177,6 +179,15 @@ See the above repository for updates as well as full license text. */
 #reload-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/reload-active.gif') !important; }
 #reload-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/reload-disabled.gif') !important; }
 
+#stop-button > .toolbarbutton-icon { background-image: url('img/icons/stop.gif') !important; }
+/*#stop-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/stop-hover.gif') !important; }*/
+#stop-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/stop-active.gif') !important; }
+#stop-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/stop-disabled.gif') !important; }
+
+#print-button > .toolbarbutton-icon { background-image: url('img/icons/print.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#print-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/print-active.gif') !important; }
+#print-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/print-disabled.gif') !important; }
 
 
 
