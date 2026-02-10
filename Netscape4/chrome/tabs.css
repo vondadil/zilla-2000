@@ -20,6 +20,7 @@
 	#tabbrowser-arrowscrollbox {
 		position: relative;
 		padding-bottom: 3px;
+		padding-left: 4px;
 
 		&:after {
 			position: absolute;
@@ -190,5 +191,9 @@
 				background: url('img/icons/small/tab-new.gif') center no-repeat !important;
 			}
 		}
+	}
+
+	#firefox-view-button, #alltabs-button {
+		margin-bottom: 4px !important;
 	}
 }
