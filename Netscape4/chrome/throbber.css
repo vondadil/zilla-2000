@@ -18,8 +18,8 @@
 }
 
 #PanelUI-button {
-  &,&:hover {
-    .toolbarbutton-1 {
+  &,&:hover,&:active,&[open] {
+    .toolbarbutton-1,.toolbarbutton-1[label] {
       &,&:hover {
         background: url("img/throbber/throbber-single.gif") no-repeat !important;
         background-size: calc(100% - 7px) !important;
