@@ -46,6 +46,7 @@
     margin-left: unset !important;
     width: var(--urlbar-width) !important;
     height: var(--urlbar-height) !important;
+
     
 
     .urlbarView {
@@ -59,10 +60,10 @@
         padding-block: 1px !important;
         padding-inline: 1px !important;
         height: var(--urlbar-height) !important;
-        margin-top: 8px !important;
+        top: calc(var(--urlbar-container-height) /2 - var(--urlbar-height)/2) !important;
+        /*position: static !important;*/
     }
 }
-
 
 /* Search Switchers */
 
