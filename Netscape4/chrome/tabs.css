@@ -1,14 +1,14 @@
 :root {
-	--tab-min-height: 22px !important;
-	--tab-border-radius: 4px !important;
+    --tab-min-height: 22px !important;
+    --tab-border-radius: 4px !important;
 }
 
 #TabsToolbar {
-	border-top: none !important;
-	border-bottom: 1px solid grey !important;
-	box-shadow: inset 0 1px rgba(0,0,0,0.25);
-	padding-top: 2px !important;
-	padding-left: 4px;
+    border-top: none !important;
+    border-bottom: 1px solid grey !important;
+    box-shadow: inset 0 1px rgba(0,0,0,0.25);
+    padding-top: 2px !important;
+    padding-left: 4px;
 }
 
 /* Horizontal Tabs */
@@ -16,61 +16,61 @@
 
 
 #tabbrowser-tabs:not([orient="vertical"]) {
-	#tabbrowser-arrowscrollbox {
-	position: relative;
-	padding-bottom: 3px;
+    #tabbrowser-arrowscrollbox {
+    position: relative;
+    padding-bottom: 3px;
 
-	&:after {
-		position: absolute;
-		content: "";
-		width: 100%;
-		height: 1px;
-		left: 0;
-		bottom: 3px;
-		z-index: 4;
-		background: white;
-	}
+    &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 3px;
+        z-index: 4;
+        background: white;
+    }
 
-	.tabbrowser-tab {
-		position: relative;
-		z-index: 1;
-		bottom: -2px;
-	}
-	.tabbrowser-tab:is([selected="true"]) {
-		position: relative;
-		z-index: 5;
-		bottom: -2px;
-	}
+    .tabbrowser-tab {
+        position: relative;
+        z-index: 1;
+        bottom: -2px;
+    }
+    .tabbrowser-tab:is([selected="true"]) {
+        position: relative;
+        z-index: 5;
+        bottom: -2px;
+    }
 }
 
-	.tab-background {
-		margin-block: unset !important;
-		background-color: transparent;
-		box-shadow: unset !important;
-		border-bottom-left-radius: 0 !important;
-		border-bottom-right-radius: 0 !important;
-		border: 1px solid white;
-		border-right: 2px solid grey;
-		border-bottom: none;
-		background-color: var(--zilla-ui-bg-color) !important;
+    .tab-background {
+        margin-block: unset !important;
+        background-color: transparent;
+        box-shadow: unset !important;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border: 1px solid white;
+        border-right: 2px solid grey;
+        border-bottom: none;
+        background-color: var(--zilla-ui-bg-color) !important;
 
-		&:is([selected], [multiselected]) {
-			/*background-color: rgba(255,255,255,0.3) !important;*/
-			box-shadow: unset !important;
-		}
-	}
+        &:is([selected], [multiselected]) {
+            /*background-color: rgba(255,255,255,0.3) !important;*/
+            box-shadow: unset !important;
+        }
+    }
 
-	.tab-content {
-	}
+    .tab-content {
+    }
 }
 
 /* Vertical Tabs */
 #tabbrowser-tabs[orient="vertical"] {
 
-	.tab-background, &:is([selected], [multiselected]) {
-		background-color: var(--zilla-ui-bg-color);
-		box-shadow: var(--zilla-win98-button-border-shadow) !important;
-	}
+    .tab-background, &:is([selected], [multiselected]) {
+        background-color: var(--zilla-ui-bg-color);
+        box-shadow: var(--zilla-win98-button-border-shadow) !important;
+    }
 }
 
 
@@ -81,26 +81,26 @@
 
 #TabsToolbar {
 
-	.toolbarbutton-1,
-	#firefox-view-button {
-		min-width: 5ch;
+    .toolbarbutton-1,
+    #firefox-view-button {
+        min-width: 5ch;
 
-		&:hover, &[open], &:active {
-			/* border-color: var(--zilla-toolbar-border-color-verydark); */
-			border-color: transparent;
+        &:hover, &[open], &:active {
+            /* border-color: var(--zilla-toolbar-border-color-verydark); */
+            border-color: transparent;
 
-			.toolbarbutton-icon,
-			.toolbarbutton-badge-stack {
-				background: transparent !important;
-				box-shadow: unset !important;
-				border: unset !important
+            .toolbarbutton-icon,
+            .toolbarbutton-badge-stack {
+                background: transparent !important;
+                box-shadow: unset !important;
+                border: unset !important
 
-			}
-		}
-	}
+            }
+        }
+    }
 
-	#firefox-view-button[open] {
-		background-color: var(--zilla-ui-bg-color) !important;
-		box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
-	}
+    #firefox-view-button[open] {
+        background-color: var(--zilla-ui-bg-color) !important;
+        box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
+    }
 }
