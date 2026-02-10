@@ -54,6 +54,10 @@
         border: 1px solid black;
         /*background: var(--zilla-ui-bg-color);*/
          /*box-shadow: var(--zilla-win98-button-border-shadow);*/
+        top: 10px;
+        width: 100% !important;
+        margin-left: 0 !important;
+        left: 0;
     }
 
     .urlbar-input-container {
