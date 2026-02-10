@@ -238,6 +238,9 @@ See the above repository for updates as well as full license text. */
 			left: 1px;
 		}
 
+		/*.toolbarbutton-icon {
+			display: none !important;
+		}*/
 		
 	}
 }
