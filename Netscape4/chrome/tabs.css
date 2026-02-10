@@ -84,6 +84,7 @@
 	.toolbarbutton-1,
 	#firefox-view-button {
 		min-width: 5ch;
+		list-style-image: unset !important;
 
 		&:hover, &[open], &:active {
 			/* border-color: var(--zilla-toolbar-border-color-verydark); */
@@ -91,11 +92,25 @@
 
 			.toolbarbutton-icon,
 			.toolbarbutton-badge-stack {
-				background: transparent !important;
+				background-color: transparent !important;
 				box-shadow: unset !important;
 				border: unset !important
 
 			}
+		}
+	}
+
+	#firefox-view-button {
+		.toolbarbutton-icon {
+			background: url('img/icons/small/folder-template-share-open.gif') center no-repeat;
+		}
+	}
+
+	#alltabs-button {
+		.toolbarbutton-icon {
+			width: 16px;
+			height: 16px;
+			background: url('img/icons/small/sbtab-twisty-open.gif') center no-repeat;
 		}
 	}
 
