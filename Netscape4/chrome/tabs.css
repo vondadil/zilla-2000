@@ -103,4 +103,14 @@
         background-color: var(--zilla-ui-bg-color) !important;
         box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
     }
+
+    #tabs-newtab-button {
+        list-style-image: none !important;
+
+        &,&:hover,&:active {
+            .toolbarbutton-icon {
+                background: url('img/icons/small/tab-new.gif') center no-repeat !important;
+            }
+        }
+    }
 }
