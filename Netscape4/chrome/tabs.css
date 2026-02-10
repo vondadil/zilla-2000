@@ -16,49 +16,82 @@
 
 
 #tabbrowser-tabs:not([orient="vertical"]) {
+
 	#tabbrowser-arrowscrollbox {
-	position: relative;
-	padding-bottom: 3px;
-
-	&:after {
-		position: absolute;
-		content: "";
-		width: 100%;
-		height: 1px;
-		left: 0;
-		bottom: 3px;
-		z-index: 4;
-		background: white;
-	}
-
-	.tabbrowser-tab {
 		position: relative;
-		z-index: 1;
-		bottom: -2px;
+		padding-bottom: 3px;
+
+		&:after {
+			position: absolute;
+			content: "";
+			width: 100%;
+			height: 1px;
+			left: 0;
+			bottom: 3px;
+			z-index: 4;
+			background: white;
+		}
+
+		.tabbrowser-tab {
+			position: relative;
+			z-index: 1;
+			bottom: -3px;
+			padding: 0 !important;
+
+			.tab-background {
+				position: relative;
+				bottom: -1px;
+			}
+		}
+		.tabbrowser-tab:is([selected="true"]) {
+			position: relative;
+			z-index: 5;
+			bottom: -2px;
+
+
+			margin-right: -2px !important;
+			&:not(:first-child) {
+				margin-left: -2px !important;
+			}
+
+
+			.tab-background {
+				bottom: 0;
+			}
+		}
+
+		#tabs-newtab-button {
+			margin-left: 4px !important;
+		}
 	}
-	.tabbrowser-tab:is([selected="true"]) {
-		position: relative;
-		z-index: 5;
-		bottom: -2px;
+
+	.tab-text {
+		color: rgba(0,0,0,0.9);
+
+		&:is([selected], [multiselected]) {
+			color: black;
+		}
 	}
-}
 
 	.tab-background {
 		margin-block: unset !important;
-		background-color: transparent;
 		box-shadow: unset !important;
 		border-bottom-left-radius: 0 !important;
 		border-bottom-right-radius: 0 !important;
 		border: 1px solid white;
 		border-right: 2px solid grey;
 		border-bottom: none;
-		background-color: var(--zilla-ui-bg-color) !important;
+		/*background-color: rgba(0,0,0,0.02);*/
 
 		&:is([selected], [multiselected]) {
-			/*background-color: rgba(255,255,255,0.3) !important;*/
+			background-color: var(--zilla-ui-bg-color) !important;
 			box-shadow: unset !important;
 		}
 	}
+
+	/*.tabbrowser-tab:not([selected="true"]) {
+		.tab-background{ background-color: rgba(0,0,0,0.05) !important; }
+	}*/
 
 	.tab-content {
 	}
@@ -81,8 +114,22 @@
 
 #TabsToolbar {
 
+	position: relative;
+	padding-bottom: 3px;
+
+	&:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 1px;
+		left: 0;
+		bottom: 3px;
+		z-index: 4;
+		background: white;
+	}
+
 	.toolbarbutton-1,
-	#firefox-view-button {
+	#firefox-view-button{
 		min-width: 5ch;
 		list-style-image: unset !important;
 
@@ -97,6 +144,20 @@
 				border: unset !important
 
 			}
+		}
+	}
+
+	.tab-close-button {
+		list-style-image: unset !important;
+		width: 24px !important;
+		background: url('img/icons/small/close-button.gif') center no-repeat;
+
+		&:hover {
+			box-shadow: var(--zilla-win98-button-border-shadow) !important;
+			background-color: transparent !important;
+		}
+		&:active {
+			box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
 		}
 	}
 
