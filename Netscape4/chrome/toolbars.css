@@ -162,10 +162,10 @@ See the above repository for updates as well as full license text. */
 	}
 }
 
-#back-button,
+/*#back-button,
 #forward-button {
 		margin-right: 12px !important;
-}
+}*/
 
 
 #back-button > .toolbarbutton-icon { background-image: url('img/icons/back.gif') !important; }
