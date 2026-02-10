@@ -129,15 +129,14 @@ See the above repository for updates as well as full license text. */
 }*/
 
 #nav-bar {
-	.toolbarbutton-1 {
-		.toolbaritem-combined-buttons {
-			align-items: stretch !important;
-		}
+	.toolbarbutton-1,
+	.toolbaritem-combined-buttons {
+		align-items: stretch !important;
+	}
 
-		.toolbarbutton-text {
-			display: flex !important;
-			align-items: flex-end;
-		}
+	.toolbarbutton-text {
+		display: flex !important;
+		align-items: flex-end;
 	}
 }
 
