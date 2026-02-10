@@ -1,21 +1,32 @@
 :root {
-  --zilla-throber-size: 40px;
+  --zilla-throber-size: 48px;
 }
 
 #PanelUI-button .toolbarbutton-1[label] > .toolbarbutton-text { display: none !important; }
 
+
+#PanelUI-button {
+  display: flex;
+  align-items: center;
+  padding-right: 4px;
+}
 #PanelUI-button .toolbarbutton-1 {
   width: var(--zilla-throber-size);
   height: var(--zilla-throber-size);
   box-shadow: var(--zilla-win98-button-border-shadow);
-  background-color: unset !important;
-  background-image: url("img/throbber/throbber-single.gif") !important;
-  background-size: 95% !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
   border: 1px solid #444;
-  margin-right: 5px !important;
-  margin-top: 4px !important;
+}
+
+#PanelUI-button {
+  &,&:hover {
+    .toolbarbutton-1 {
+      &,&:hover {
+        background: url("img/throbber/throbber-single.gif") no-repeat !important;
+        background-size: calc(100% - 7px) !important;
+        background-position: 3px 3px !important;
+      }
+    }
+  }
 }
 
 #PanelUI-button .toolbarbutton-badge {
