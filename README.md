@@ -13,7 +13,7 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 1. Enable the Title Bar (Right-Click on the empty space in the Main Toolbar, click `Customize` and enable the `Title Bar` checkbox on the bottom)
 2. (Optional) Enable the Menu Bar (Right-Click on the empty space in the Main Toolbar and select the `Menu Bar` checkbox)
 3. Go to `about:support`, find the entry for your profile directory  and click `Open Directory`
-4. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/zilla-rewrite.zip) and copy the folder `chrome` folder in `MozillaClassic` into your profile directory
+4. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/zilla-rewrite.zip) and copy the folder `chrome` into your profile directory
 5. Go to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
 5. Restart Firefox
 
