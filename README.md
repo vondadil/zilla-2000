@@ -24,7 +24,7 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus). Should mostly work on other platforms, too.
 
 # Changes / Features
-- Main UI (Toolbar and Tabs) look like Netscape 6 Classic Theme / Mozilla 1.7
+- Main UI (Toolbar and Tabs) looks like Netscape 6 Classic Theme / Mozilla 1.7
 - Icons for the buttons `Back`/`Forward`/`Reload`, `Toggle Sidebar` and `Print` are taken from Mozilla 1.7
 - Icons for `Account` and `Extensions` are taken from Netscape 4
 - URL bar does not pop out anymore and matches the Mozilla/Netscape Classic style
