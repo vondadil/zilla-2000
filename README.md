@@ -1,8 +1,8 @@
-# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/zilla-2000/blob/zilla-rewrite/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
+# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/main/blob/zilla-rewrite/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
 
 A Mozilla/Netscape Classic theme for modern Firefox
 
-![Dev-Screenshot of Zilla2000](https://github.com/javos/zilla-2000/blob/zilla-rewrite/screenshot.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/javos/zilla-2000/blob/main/screenshot.png?raw=true)
 
 Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
 
@@ -13,7 +13,7 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 1. Enable the Title Bar (Right-Click on the empty space in the Main Toolbar, click `Customize` and enable the `Title Bar` checkbox on the bottom)
 2. (Optional) Enable the Menu Bar (Right-Click on the empty space in the Main Toolbar and select the `Menu Bar` checkbox)
 3. Go to `about:support`, find the entry for your profile directory  and click `Open Directory`
-4. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/zilla-rewrite.zip) and copy the folder `chrome` into your profile directory
+4. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/main.zip) and copy the folder `chrome` into your profile directory
    - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
 6. Go to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
 5. Restart Firefox
