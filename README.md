@@ -33,7 +33,7 @@ Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reac
 - **The throbber is actually animated while loading a page!**
 
 # Known Issues
-- `Zoom Control` buttons are visually broken (but remain functional)
+- `Zoom Control` and `Edit Controls` buttons are visually broken (but remain functional)
 
 # Development State
 The Mozilla Classic theme is mostly finished. I'll fix bugs when I have time. If this theme breaks on newer versions of Firefox feel free to create a bug report in the issue tracker, make a pull request or message me :)
