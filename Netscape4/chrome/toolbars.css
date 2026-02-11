@@ -13,13 +13,14 @@ See the above repository for full source, updates as well as full license text. 
 #nav-bar .toolbarbutton-1[label]{
 	flex-direction: column;
 	align-items: center !important;
+	padding: 0 6px !important;
 }
 
 /*#nav-bar .toolbarbutton-1[label]:not([disabled]):hover{ background-color: var(--toolbarbutton-hover-background) !important; }*/
 
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-icon,
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-badge-stack{
-	padding: 0 var(--toolbarbutton-inner-padding) !important;
+	padding: 0 !important;
 	border: none !important;
 	background-color: transparent !important;
 	box-shadow: none !important;
@@ -136,7 +137,7 @@ See the above repository for full source, updates as well as full license text. 
 	}
 
 	.toolbarbutton-badge-stack {
-		height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+		min-height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
 		padding-top: 0 !important;
 		align-items: center !important;
 		/*min-width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;*/
@@ -164,11 +165,11 @@ See the above repository for full source, updates as well as full license text. 
 			width: var(--zilla-toolbar-button-icon-size) !important;
 			height: var(--zilla-toolbar-button-icon-size) !important;
 			display: flex !important;
-			background-position: center;
+			background-position: top center;
 			background-repeat: no-repeat;
-			background-size: 100%;
+			background-size: unset;
 			position: relative;
-			top: 4px;
+			top: 6px;
 		}
 	}
 }
@@ -177,6 +178,11 @@ See the above repository for full source, updates as well as full license text. 
 #forward-button {
 		margin-right: 12px !important;
 }*/
+
+#reload-button,
+#stop-button {
+	.toolbarbutton-animatable-box { display: none !important; }
+}
 
 
 #back-button > .toolbarbutton-icon { background-image: url('img/icons/back.gif') !important; }
