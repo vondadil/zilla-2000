@@ -210,10 +210,10 @@ See the above repository for full source, updates as well as full license text. 
 #sidebar-button[disabled] .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
 
 
-#unified-extensions-button > .toolbarbutton-icon { background-image: url('img/icons/puzzle.gif') !important; }
+#unified-extensions-button > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
 /*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
-#unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/puzzle.gif') !important; }
-#unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/puzzle.gif') !important; }
+#unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
+#unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
 
 
 
