@@ -25,11 +25,11 @@ Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reac
 
 # Changes / Features
 - Main UI (Toolbar and Tabs) looks like Netscape 6 Classic Theme / Mozilla 1.7
-- Icons for the buttons `Back`/`Forward`/`Reload`, `Toggle Sidebar` and `Print` are taken from Mozilla 1.7
-- Icons for `Account` and `Extensions` are taken from Netscape 4
+- Icons for the buttons `Back`/`Forward`/`Reload`, `Toggle Sidebar` and `Print` are replaced with icons taken from Mozilla 1.7
+- Icons for `Account` and `Extensions` are replaced with icons taken from Netscape 4
 - URL bar does not pop out anymore and matches the Mozilla/Netscape Classic style
 - Sidebar matches the Mozilla/Netscape Classic style (icons remain unchanged)
-- All other elements of the browser remain the same for now
+- All other elements of the browser remain untouched for now
 
 - **The throbber is actually animated while loading a page!**
 
