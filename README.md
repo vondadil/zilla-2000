@@ -8,7 +8,7 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 
 (Loosely) based on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
 
-# Installation
+## Installation
 
 1. Enable the Title Bar (Right-Click on the empty space in the Main Toolbar, click `Customize` and enable the `Title Bar` checkbox on the bottom)
 2. (Optional) Enable the Menu Bar (Right-Click on the empty space in the Main Toolbar and select the `Menu Bar` checkbox)
@@ -20,10 +20,10 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 
 *Notice:* Not enabling the Title Bar may result in visual bugs
 
-# Support
+## Support
 Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus). Should mostly work on other platforms, too.
 
-# Changes / Features
+## Changes / Features
 - Main UI (Toolbar and Tabs) looks like Netscape 6 Classic Theme / Mozilla 1.7
 - Loading throbber from Mozilla 1.7 added to the Main Toolbar (and it's actually animated while loading a page! 🥳)
 - Icons for the buttons `Back`/`Forward`/`Reload`, `Toggle Sidebar` and `Print` are replaced with icons taken from Mozilla 1.7
@@ -32,10 +32,10 @@ Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reac
 - Sidebar matches the Mozilla/Netscape Classic style (icons remain unchanged)
 - All other elements of the browser remain untouched for now
 
-# Known Issues
+## Known Issues
 - `Zoom Control` and `Edit Controls` buttons are visually broken (but remain functional)
 
-# Development State
+## Development State
 The Mozilla Classic theme is mostly finished. I'll fix bugs when I have time. If this theme breaks on newer versions of Firefox feel free to create a bug report in the issue tracker, make a pull request or message me :)
 
 -- vondadil (E-Mail: vondadil@vonvon.space)
