@@ -1,4 +1,4 @@
-# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/zilla-2000/blob/zilla-rewrite/Netscape4/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
+# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/zilla-2000/blob/zilla-rewrite/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
 
 A Mozilla/Netscape Classic theme for modern Firefox
 
