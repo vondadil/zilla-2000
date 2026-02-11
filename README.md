@@ -14,7 +14,8 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 2. (Optional) Enable the Menu Bar (Right-Click on the empty space in the Main Toolbar and select the `Menu Bar` checkbox)
 3. Go to `about:support`, find the entry for your profile directory  and click `Open Directory`
 4. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/zilla-rewrite.zip) and copy the folder `chrome` into your profile directory
-5. Go to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
+   - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
+6. Go to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
 5. Restart Firefox
 
 *Notice:* Not enabling the Title Bar may result in visual bugs
