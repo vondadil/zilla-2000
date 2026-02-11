@@ -6,7 +6,7 @@ A Mozilla/Netscape Classic theme for modern Firefox
 
 **DO NOT USE YET - Still in early development**
 
-Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95)
+Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus)
 
 ![Dev-Screenshot of Zilla2000](https://github.com/javos/zilla-2000/blob/zilla-rewrite/screenshot.png?raw=true)
 
