@@ -2,17 +2,11 @@
 
 /* Widget themeing */
 @import "variables.css";
-/*@import "icons.css";*/
 @import "mainwindow.css";
 @import "tabs.css";
 @import "statusbar.css";
 @import "toolbars.css";
-@import "toolbar-labels.css";
 @import "urlbar.css"; 
-@import "bookmarkpanel.css";
-@import "librarywin.css";
-@import "findbar.css";
-@import "downloads.css";
 @import "throbber.css";
 @import "sidebar.css";
 
