@@ -141,6 +141,11 @@ See the above repository for full source, updates as well as full license text. 
 		align-items: center !important;
 		/*min-width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;*/
 	}
+
+	.toolbarbutton-badge {
+		position: relative;
+		top: 6px;
+	}
 }
 
 #back-button,
