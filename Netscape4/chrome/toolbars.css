@@ -154,7 +154,8 @@ See the above repository for full source, updates as well as full license text. 
 #stop-button,
 #print-button,
 #sidebar-button,
-#unified-extensions-button {
+#unified-extensions-button,
+#fxa-toolbar-menu-button {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
@@ -214,6 +215,15 @@ See the above repository for full source, updates as well as full license text. 
 /*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
 #unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
 #unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
+
+
+#fxa-toolbar-menu-button .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#fxa-toolbar-menu-button:not([disabled]):active .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
+#fxa-toolbar-menu-button[disabled] .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
+
+
+#fxa-toolbar-menu-button .avatar-container { display: none !important; }
 
 
 
