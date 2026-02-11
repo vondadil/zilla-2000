@@ -1,15 +1,14 @@
-/* Tool Bar Labels */
-
-/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/toolbarbuttons_icon+label.css made available under Mozilla Public License v. 2.0
-See the above repository for updates as well as full license text. */
-
 :root {
 	--zilla-toolbar-label-height: 6px;
 	--zilla-toolbar-button-icon-size: 22px;
 	--toolbarbutton-inner-padding: 0;
 }
 
+
+/* Tool Bar Labels */
 /* Shows both icon and label for toolbarbuttons */
+/* Partly taken from https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/toolbarbuttons_icon+label.css made available under Mozilla Public License v. 2.0
+See the above repository for full source, updates as well as full license text. */
 
 #nav-bar .toolbarbutton-1[label]{
 	flex-direction: column;
@@ -20,8 +19,7 @@ See the above repository for updates as well as full license text. */
 
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-icon,
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-badge-stack{
-	padding: var(--toolbarbutton-inner-padding) !important;
-	padding-bottom: 0px !important;
+	padding: 0 var(--toolbarbutton-inner-padding) !important;
 	border: none !important;
 	background-color: transparent !important;
 	box-shadow: none !important;
@@ -48,14 +46,12 @@ See the above repository for updates as well as full license text. */
 
 
 
-
-#nav-bar .toolbarbutton-1[label] > .toolbarbutton-badge-stack {
-	height: unset !important;
-}
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-text {
 	min-height: var(--zilla-toolbar-label-height) !important;
 }
 
+
+/* ---------- */
 
 
 /* Main Tool Bar */
@@ -93,7 +89,7 @@ See the above repository for updates as well as full license text. */
 	background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
 }
 #toolbar-menubar {
-		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
 }
 
 
@@ -138,21 +134,29 @@ See the above repository for updates as well as full license text. */
 		display: flex !important;
 		align-items: flex-end;
 	}
+
+	.toolbarbutton-badge-stack {
+		height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+		padding-top: 0 !important;
+		align-items: center !important;
+		/*min-width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;*/
+	}
 }
 
 #back-button,
 #forward-button,
 #reload-button,
 #stop-button,
-#print-button {
-	&,.toolbarbutton-1&[label] {
-		> .toolbarbutton-icon {
-			list-style-image: none;
+#print-button,
+#sidebar-button {
+	&,.toolbarbutton-1,.toolbarbutton-1[label] {
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack {
+			list-style-image: none !important;
 			margin: auto !important;
 			width: var(--zilla-toolbar-button-icon-size) !important;
 			height: var(--zilla-toolbar-button-icon-size) !important;
-			padding: 0 !important;
-			display: block;
+			display: flex !important;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 100%;
@@ -192,6 +196,12 @@ See the above repository for updates as well as full license text. */
 /*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
 #print-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/print-active.gif') !important; }
 #print-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/print-disabled.gif') !important; }
+
+
+#sidebar-button .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#sidebar-button:not([disabled]):active > .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
+#sidebar-button[disabled] > .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
 
 
 
