@@ -1,8 +1,8 @@
-# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/main/blob/zilla-rewrite/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
+# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
 
 A Mozilla/Netscape Classic theme for modern Firefox
 
-![Dev-Screenshot of Zilla2000](https://github.com/javos/zilla-2000/blob/main/screenshot.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot.png?raw=true)
 
 Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
 
