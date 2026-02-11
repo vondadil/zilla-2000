@@ -1,4 +1,4 @@
-# Zilla2000
+# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/zilla-2000/blob/zilla-rewrite/Netscape4/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
 
 A Mozilla/Netscape Classic theme for modern Firefox
 
@@ -30,12 +30,12 @@ Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reac
 - Sidebar matches the Mozilla/Netscape Classic style (icons remain unchanged)
 - All other elements of the browser remain the same for now
 
-- The throbber is animated while loading a page!!
+- **The throbber is actually animated while loading a page!**
 
 # Known Issues
 - `Zoom Control` buttons are visually broken (but remain functional)
 
 # Development State
-The theme is mostly finished. I'll fix bugs when I have time. If this theme breaks on newer versions of Firefox feel free to create a bug report in the issue tracker, make a pull request or message me :)
+The Mozilla Classic theme is mostly finished. I'll fix bugs when I have time. If this theme breaks on newer versions of Firefox feel free to create a bug report in the issue tracker, make a pull request or message me :)
 
 -- vondadil (E-Mail: vondadil@vonvon.space)
