@@ -8,6 +8,14 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 
 (Loosely) based on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
 
+## Features
+- Main UI styling in the style of Mozilla 1.7 / Netscape 6 Classic
+- Classic toolbar icons (where applicable)
+- Classic Loading Throbber in the Main Toolbar (which is actually animated while loading a page! 🥳) - clicking it accesses the Firefox menu
+- Dark mode!
+- Native Firefox themes mostly still work
+- Toolbar buttons have text labels
+
 ## Installation
 
 1. Enable the Title Bar (Right-Click on the empty space in the Main Toolbar, click `Customize` and enable the `Title Bar` checkbox on the bottom)
@@ -20,14 +28,17 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 
 *Notice:* Not enabling the Title Bar may result in visual bugs
 
-## Support
-Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus). Should mostly work on other platforms, too.
+## OS and Desktop Environment Support
+Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus).
+The theme should be flexible enough to work on most other platforms, though.
+macOS could be glitchy but works for now with Menu Bar and Title Bar enabled.
 
-## Changes / Features
+## Full List of Changes
 - Main UI (Toolbar and Tabs) looks like Netscape 6 Classic Theme / Mozilla 1.7
-- The Firefox menu button is now the throbber from Mozilla 1.7 (and it's actually animated while loading a page! 🥳) - it still works as the menu button
+- The Firefox menu button is now the throbber from Mozilla 1.7, moonlights  as the menu button
 - Icons for the buttons `Back`/`Forward`/`Reload`, `Toggle Sidebar` and `Print` are replaced with icons taken from Mozilla 1.7
 - Icons for `Account` and `Extensions` are replaced with icons taken from Netscape 4
+- Labels for Toolbar buttons are visible again and placed below the icons
 - URL bar does not pop out anymore and matches the Mozilla/Netscape Classic style
 - Sidebar matches the Mozilla/Netscape Classic style (icons remain unchanged)
 - All other elements of the browser remain untouched for now
