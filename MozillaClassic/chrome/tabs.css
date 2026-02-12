@@ -32,6 +32,9 @@
 			bottom: 3px;
 			z-index: 4;
 			background: var(--zilla-toolbar-border-color-light);
+			@media (prefers-color-scheme: dark) {
+				background: var(--zilla-toolbar-border-color-slightlylight);
+			}
 		}
 
 		.tabbrowser-tab {
@@ -139,6 +142,9 @@
 		bottom: 3px;
 		z-index: 4;
 		background: var(--zilla-toolbar-border-color-light);
+		@media (prefers-color-scheme: dark) {
+			background: var(--zilla-toolbar-border-color-slightlylight);
+		}
 	}
 
 	.toolbarbutton-1 {
