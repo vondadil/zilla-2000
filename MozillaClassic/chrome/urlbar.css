@@ -21,8 +21,7 @@
 
 .urlbar-input-container {
     border: none !important;
-    background: transparent;
-    background: white;
+    background: rgba(255,255,255,0.1) !important;
     box-shadow: var(--zilla-win98-input-border-shadow);
 }
 .urlbar-input-box {
@@ -52,7 +51,7 @@
     .urlbarView {
         background: white;
         border: 1px solid black;
-        /*background: var(--zilla-ui-bg-color);*/
+        background: var(--zilla-ui-bg-color);
          /*box-shadow: var(--zilla-win98-button-border-shadow);*/
         top: 10px;
         width: 100% !important;

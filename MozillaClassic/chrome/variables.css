@@ -20,19 +20,28 @@
         inset 2px 2px #666;
 
 
+ /* -- Toolbar Border Colors -- */
+    --zilla-toolbar-border-color-dark: rgba(0,0,0,0.3);
+    --zilla-toolbar-border-color-verydark: rgba(0,0,0,0.5);
+    --zilla-toolbar-border-color-light: rgba(255,255,255,0.5);
+
+    @media (prefers-color-scheme: dark) {
+        --zilla-toolbar-border-color-dark: rgba(0,0,0,0.3);
+        --zilla-toolbar-border-color-verydark: rgba(0,0,0,0.5);
+        --zilla-toolbar-border-color-light: rgba(255,255,255,0.1);
+    }
+
     /* -- Main Window Background -- */
     /* Mozilla / Windows XP Style (light beige): */
-    --zilla-ui-bg-color: #d4d0c8;
+    --zilla-ui-bg-color-light: #d4d0c8;
 
     /* Netscape / Windows 95 Style (grey): */
-    /*--zilla-ui-bg-color: #c0c0c0;*/
+    /*--zilla-ui-bg-color-light: #c0c0c0;*/
 
-
-
-    /* -- Toolbar Border Colors -- */
-    --zilla-toolbar-border-color-dark: #888;
-    --zilla-toolbar-border-color-verydark: black;
-    --zilla-toolbar-border-color-light: #efefef;
+    --zilla-ui-bg-color: var(--zilla-ui-bg-color-light);
+    @media (prefers-color-scheme: dark) {
+        --zilla-ui-bg-color: #333;
+    }
 }
 
 /* slightly purple Window Color for Private Browsing */
