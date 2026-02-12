@@ -9,9 +9,9 @@ Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthe
 (Loosely) based on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
 
 ## Features
-- Main UI styling in the style of Mozilla 1.7 / Netscape 6 Classic
+- Main UI in the style of Mozilla 1.7 / Netscape 6 Classic
 - Classic toolbar icons (where applicable)
-- Classic Loading Throbber in the Main Toolbar (which is actually animated while loading a page! 🥳) - clicking it accesses the Firefox menu
+- Loading Throbber in the Main Toolbar (which is actually animated while loading a page! 🥳) - clicking it accesses the Firefox menu
 - Dark mode support!
 - Native Firefox themes mostly still work
 - Toolbar buttons have text labels
