@@ -1,38 +1,52 @@
 /* Windows Style input borders, taken from https://jdan.github.io/98.css/ */
 :root, #main-window {
-    /* -- Button/Input Box/Border Shadows -- */
-    --zilla-win98-button-border-shadow:
-        inset -1px -1px #666,
-        inset 1px 1px #fff,
-        inset -2px -2px grey,
-        inset 2px 2px #dfdfdf;
-    
-    --zilla-win98-input-border-shadow:
-        inset -1px -1px #fff,
-        inset 1px 1px grey,
-        inset -2px -2px #dfdfdf,
-        inset 2px 2px #666;
+    /* -- Toolbar Border Colors -- */
+    --zilla-toolbar-border-color-dark: rgba(0,0,0,0.5);
+    --zilla-toolbar-border-color-verydark: rgba(0,0,0,0.7);
+    --zilla-toolbar-border-color-slightlydark: rgba(0,0,0,0.2);
+    --zilla-toolbar-border-color-light: rgba(255,255,255,0.9);
+    --zilla-toolbar-border-color-slightlylight: rgba(255,255,255,0.6);
 
-    --zilla-win98-button-border-shadow-active:
-        inset -1px -1px #ffffff,
-        inset 1px 1px #0a0a0a,
-        inset -2px -2px #dfdfdf,
-        inset 2px 2px #666;
-
+    @media (prefers-color-scheme: dark) {
+        --zilla-toolbar-border-color-dark: rgba(0,0,0,0.8);
+        --zilla-toolbar-border-color-verydark: rgba(0,0,0,0.5);
+        --zilla-toolbar-border-color-light: rgba(255,255,255,0.3);
+        --zilla-toolbar-border-color-slightlydark: rgba(0,0,0,0.2);
+        --zilla-toolbar-border-color-slightlylight: rgba(255,255,255,0.1);
+    }
 
     /* -- Main Window Background -- */
     /* Mozilla / Windows XP Style (light beige): */
-    --zilla-ui-bg-color: #d4d0c8;
+    --zilla-ui-bg-color-light: #d4d0c8;
 
     /* Netscape / Windows 95 Style (grey): */
-    /*--zilla-ui-bg-color: #c0c0c0;*/
+    /*--zilla-ui-bg-color-light: #c0c0c0;*/
+
+    --zilla-ui-bg-color: var(--zilla-ui-bg-color-light);
+    @media (prefers-color-scheme: dark) {
+        --zilla-ui-bg-color: #333;
+    }
 
 
 
-    /* -- Toolbar Border Colors -- */
-    --zilla-toolbar-border-color-dark: #888;
-    --zilla-toolbar-border-color-verydark: black;
-    --zilla-toolbar-border-color-light: #efefef;
+    /* -- Button/Input Box/Border Shadows -- */
+    --zilla-win98-button-border-shadow:
+        inset -1px -1px var(--zilla-toolbar-border-color-dark),
+        inset 1px 1px var(--zilla-toolbar-border-color-slightlylight),
+        inset -2px -2px var(--zilla-toolbar-border-color-slightlydark),
+        inset 2px 2px var(--zilla-toolbar-border-color-slightlylight);
+    
+    --zilla-win98-input-border-shadow:
+        inset -1px -1px var(--zilla-toolbar-border-color-slightlylight),
+        inset 1px 1px var(--zilla-toolbar-border-color-slightlydark),
+        inset -2px -2px var(--zilla-toolbar-border-color-slightlylight),
+        inset 2px 2px var(--zilla-toolbar-border-color-dark);
+
+    --zilla-win98-button-border-shadow-active:
+        inset -1px -1px var(--zilla-toolbar-border-color-slightlylight),
+        inset 1px 1px var(--zilla-toolbar-border-color-dark),
+        inset -2px -2px var(--zilla-toolbar-border-color-slightlylight),
+        inset 2px 2px var(--zilla-toolbar-border-color-slightlydark);
 }
 
 /* slightly purple Window Color for Private Browsing */

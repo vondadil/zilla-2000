@@ -4,7 +4,7 @@
 	border-left: 1px solid var(--zilla-toolbar-border-color-dark);
 
 	sidebar-main {
-		border-left: 1px solid white !important;
+		border-left: 1px solid var(--zilla-toolbar-border-color-light) !important;
 		border-right: 1px solid var(--zilla-toolbar-border-color-dark);
 	}
 	

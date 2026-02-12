@@ -87,10 +87,21 @@ See the above repository for full source, updates as well as full license text. 
 	border-top: 1px solid var(--zilla-toolbar-border-color-light) !important;
 	border-bottom: 1px solid var(--zilla-toolbar-border-color-dark) !important;
 	border-right: 1px solid var(--zilla-toolbar-border-color-dark) !important;
-	background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+
+	@media (prefers-color-scheme: light) {
+		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	}
+	@media(prefers-color-scheme: dark) {
+			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+	}
 }
 #toolbar-menubar {
-	background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	@media (prefers-color-scheme: light) {
+		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	}
+	@media(prefers-color-scheme: dark) {
+			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+	}
 }
 
 

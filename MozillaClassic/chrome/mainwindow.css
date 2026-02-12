@@ -1,10 +1,11 @@
+#main-window {
+  /*--toolbar-color-scheme: light !important;*/
+  
+  /*color-scheme: light !important;*/
+}
+
+
 
 #navigator-toolbox {
     background-color: var(--zilla-ui-bg-color) !important;
-}
-
-#main-window {
-  --toolbar-color-scheme: light !important;
-  
-  color-scheme: light !important;
 }
