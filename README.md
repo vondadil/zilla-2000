@@ -4,10 +4,6 @@ A Mozilla/Netscape Classic theme for modern Firefox
 
 ![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot.png?raw=true)
 
-Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
-
-(Loosely) based on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
-
 ## Features
 - Main UI in the style of Mozilla 1.7 / Netscape 6 Classic
 - Classic toolbar icons (where applicable)
@@ -48,5 +44,10 @@ macOS could be glitchy but works for now with Menu Bar and Title Bar enabled.
 
 ## Development State
 The Mozilla Classic theme is mostly finished. I'll fix bugs when I have time. If this theme breaks on newer versions of Firefox feel free to create a bug report in the issue tracker, make a pull request or message me :)
+
+# Credits
+Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
+
+Loosely built upon on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
 
 -- vondadil (E-Mail: vondadil@vonvon.space)
