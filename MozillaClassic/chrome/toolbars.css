@@ -91,10 +91,16 @@ See the above repository for full source, updates as well as full license text. 
 	@media (prefers-color-scheme: light) {
 		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
 	}
+	@media(prefers-color-scheme: dark) {
+			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+	}
 }
 #toolbar-menubar {
 	@media (prefers-color-scheme: light) {
 		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	}
+	@media(prefers-color-scheme: dark) {
+			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
 	}
 }
 

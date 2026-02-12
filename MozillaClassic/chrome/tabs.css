@@ -173,6 +173,12 @@
 		width: 24px !important;
 		background: url('img/icons/small/close-button.gif') center no-repeat;
 
+		@media(prefers-color-scheme: dark) {
+			background-image: url('img/icons/small/close-button-darkmode.gif');
+		}
+
+
+
 		&:hover {
 			box-shadow: var(--zilla-win98-button-border-shadow) !important;
 			background-color: transparent !important;
