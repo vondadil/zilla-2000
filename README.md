@@ -48,6 +48,8 @@ The Mozilla Classic theme is mostly finished. I'll fix bugs when I have time. If
 # Credits
 Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
 
+Toolbar Icon assets extracted from Mozilla 1.7 Source and Netscape 6
+
 Loosely built upon on the Netscape4 theme from [matthewmx86/RetroThemesFirefox](https://github.com/matthewmx86/RetroThemesFirefox)
 
 -- vondadil (E-Mail: vondadil@vonvon.space)
