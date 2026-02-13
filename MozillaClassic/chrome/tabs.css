@@ -150,9 +150,11 @@
 	.toolbarbutton-1 {
 		min-width: 5ch;
 
-		&:not(#firefox-view-button,#alltabs-button) {
+		/* &:not(#firefox-view-button,#alltabs-button) {
 			list-style-image: unset !important;
-		}
+		} */
+
+		margin-bottom: 4px !important;
 
 		&:hover, &[open], &:active {
 			/* border-color: var(--zilla-toolbar-border-color-verydark); */
@@ -215,9 +217,5 @@
 				background: url('img/icons/small/tab-new.gif') center no-repeat !important;
 			}
 		}
-	}
-
-	#firefox-view-button, #alltabs-button {
-		margin-bottom: 4px !important;
 	}
 }
