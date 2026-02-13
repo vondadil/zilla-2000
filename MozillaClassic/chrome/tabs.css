@@ -16,6 +16,7 @@
 
 
 #tabbrowser-tabs:not([orient="vertical"]) {
+	border-inline-start: unset !important;
 
 	#tabbrowser-arrowscrollbox,
 	#pinned-tabs-container {
@@ -52,6 +53,10 @@
 			position: relative;
 			z-index: 5;
 			bottom: -2px;
+
+			.tab-stack {
+				padding-right: 1px;
+			}
 
 			&:not(:first-child) {
 				margin-left: -2px !important;
