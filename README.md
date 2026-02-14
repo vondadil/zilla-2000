@@ -1,10 +1,24 @@
-# ![Mozilla 1.7 classic throbber](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true) Zilla2000
+<h1 align="center"><img src="https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/throbber-single.gif?raw=true" alt="Mozilla 1.7 classic throbber"> Zilla2000</h1>
 
-A Mozilla/Netscape Classic theme for modern Firefox
+<div align="center"><strong>A Mozilla/Netscape Classic theme for modern Firefox</strong></div>
+
+----
+
+<div align="center">
+  <a href="#features">🌟 Features</a> -
+  <a href="#installation">🚀 Installation</a> -
+  <a href="#features">⚙️ Customization</a>  -
+  <a href="#screenshots">🖼️ Screenshots</a> -
+  <a href="#more-information">❓ More Info</a>
+</div>
+
+----
 
 ![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot.png?raw=true)
 
-## Features
+----
+
+## 🌟 Features
 - Main UI in the style of Mozilla 1.7 / Netscape 6 Classic
 - Classic toolbar icons (where applicable)
 - Loading Throbber in the Main Toolbar (which is actually animated while loading a page! 🥳) - clicking it accesses the Firefox menu
@@ -12,7 +26,7 @@ A Mozilla/Netscape Classic theme for modern Firefox
 - Native Firefox themes mostly still work
 - Toolbar buttons have text labels
 
-## Installation
+## 🚀 Installation
 
 ### Automatic Installation
 ~~On Linux and Windows you can use [Firefox Theme Installer](https://github.com/Hakanbaban53/Firefox-Theme-Installer) to install various Firefox UserCSS themes via an easy-to-use GUI.~~
@@ -41,7 +55,7 @@ A Mozilla/Netscape Classic theme for modern Firefox
    - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
 3. Restart Firefox
 
-## Customization
+## ⚙️ Customization
 
 ### Loading Throbber
 
@@ -58,12 +72,20 @@ If you prefer the original Netscape throbber, rename the following files in `chr
 | Netscape Throbber | ![Netscape style throbber static](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/netscape-throbber-single.gif) | ![Netscape style throbber animated](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/netscape-throbber-anim.gif) |
 
 
-## OS and Desktop Environment Support
+## 🖼️ Screenshots
+
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot.png?raw=true)
+
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot-darkmode.png?raw=true)
+
+## ❓ More Information
+
+### OS and Desktop Environment Support
 Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus).
 The theme should be flexible enough to work on most other platforms, though.
 macOS could be glitchy but works for now with Menu Bar and Title Bar enabled.
 
-## Full List of Changes
+### Full List of Changes
 - Main UI (Toolbar and Tabs) looks like Netscape 6 Classic Theme / Mozilla 1.7
 - The Firefox menu button is now the throbber from Mozilla 1.7, moonlights  as the menu button
 - Icons for the buttons `Back`/`Forward`/`Reload`, `Toggle Sidebar` and `Print` are replaced with icons taken from Mozilla 1.7
@@ -74,13 +96,13 @@ macOS could be glitchy but works for now with Menu Bar and Title Bar enabled.
 - All other elements of the browser remain untouched for now
 - In Private Browsing mode the UI has a purple tint
 
-## Known Issues
+### Known Issues
 - `Zoom Control` and `Edit Controls` buttons are visually broken (but remain functional)
 
-## Development State
+### Development State
 The Mozilla Classic theme is mostly finished. I'll fix bugs when I have time. If this theme breaks on newer versions of Firefox feel free to create a bug report in the issue tracker, make a pull request or message me :)
 
-# Credits
+### Credits
 Special Thanks to [grassmunk](https://github.com/grassmunk) (Chicago95), [matthewmx86](https://github.com/matthewmx86) (RetroThemesFirefox), [MrOtherGuy](https://github.com/MrOtherGuy) (Firefox CSS Hacks) and [jdan](https://github.com/jdan) (98.css) for inspiration and previous work :) 
 
 Toolbar Icon assets extracted from Mozilla 1.7 Source and Netscape 6
