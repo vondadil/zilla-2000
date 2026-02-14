@@ -14,7 +14,7 @@
 
 ----
 
-![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/_Extras/Screenshots/screenshot.png?raw=true)
 
 ----
 
@@ -77,16 +77,16 @@ If you prefer the original Netscape throbber, rename the following files in `chr
 ## 🖼️ Screenshots
 
 #### zilla2000 - Title Bar enabled, Menu Bar enabled, customized button positions (on KDE, Reactionary Plus theme):
-![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/_Extras/Screenshots/screenshot.png?raw=true)
 
 #### Dark mode (on KDE, Reactionary Plus theme):
-![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot-darkmode.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/_Extras/Screenshots/screenshot-darkmode.png?raw=true)
 
 #### Private Browsing mode, Bookmarks Bar hidden (on GNOME):
-![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot-private-light.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/_Extras/Screenshots/screenshot-private-light.png?raw=true)
 
 #### Private Browsing mode (on GNOME, Dark Style):
-![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/screenshot-private-dark.png?raw=true)
+![Dev-Screenshot of Zilla2000](https://github.com/vondadil/zilla-2000/blob/main/_Extras/Screenshots/screenshot-private-dark.png?raw=true)
 
 ## ❓ More Information
 
