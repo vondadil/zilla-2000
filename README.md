@@ -14,25 +14,32 @@ A Mozilla/Netscape Classic theme for modern Firefox
 
 ## Installation
 
-### Pre-Installation
-1. Enable the Title Bar (Right-Click on the empty space in the Main Toolbar, click `Customize Toolbar` and enable the `Title Bar` checkbox on the bottom)
-2. (Optional) Enable the Menu Bar (Right-Click on the empty space in the Main Toolbar and select the `Menu Bar` checkbox)
-3. Go to `about:support`, find the entry for your profile directory  and click `Open Directory`
-4. Go to `about:config` (read and accept the warning), search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
-5. Restart Firefox
-
-*Notice:* Not enabling the Title Bar may result in visual bugs
-
-### Manual Installation
-1. Complete the Pre-Installation steps
-2. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/main.zip) and copy the folder `chrome` into your profile directory
-   - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
-3. Restart Firefox
-
 ### Automatic Installation
 On Linux and Windows you can use [Firefox Theme Installer](https://github.com/Hakanbaban53/Firefox-Theme-Installer) to install various Firefox UserCSS themes via an easy-to-use GUI.
 
 *Notice:* I have not submitted this theme to the FirefoxCSS Store yet, **so this method does not work with zilla2000 yet**. Once I've done that I'll update this section.
+
+
+### Manual Installation
+
+#### Pre-Installation
+1. Enable the Title Bar
+   * Right-Click on the empty space in the Main Toolbar, click `Customize Toolbar` and enable the `Title Bar` checkbox on the bottom
+3. *(Optional)* Enable the Menu Bar
+   * Right-Click on the empty space in the Main Toolbar and select the `Menu Bar` checkbox
+5. Open your Firefox profile folder
+   * Go to `about:support`, find the entry for your profile directory  and click `Open Directory`
+8. Enable User Chrome Stylesheets
+   * Go to `about:config` (read and accept the warning), search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
+10. Restart Firefox
+
+*Notice:* Not enabling the Title Bar may result in visual bugs
+
+#### Manual Installation
+1. Complete the Pre-Installation steps
+2. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/main.zip) and copy the folder `chrome` into your profile directory
+   - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
+3. Restart Firefox
 
 ## Customization
 
