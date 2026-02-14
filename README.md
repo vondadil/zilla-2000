@@ -15,7 +15,7 @@ A Mozilla/Netscape Classic theme for modern Firefox
 ## Installation
 
 ### Automatic Installation
-On Linux and Windows you can use [Firefox Theme Installer](https://github.com/Hakanbaban53/Firefox-Theme-Installer) to install various Firefox UserCSS themes via an easy-to-use GUI.
+~~On Linux and Windows you can use [Firefox Theme Installer](https://github.com/Hakanbaban53/Firefox-Theme-Installer) to install various Firefox UserCSS themes via an easy-to-use GUI.~~
 
 *Notice:* I have not submitted this theme to the FirefoxCSS Store yet, **so this method does not work with zilla2000 yet**. Once I've done that I'll update this section.
 
