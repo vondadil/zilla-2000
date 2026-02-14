@@ -51,9 +51,11 @@
 
 #### Manual Installation
 1. Complete the Pre-Installation steps
-2. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/main.zip) and copy the folder `chrome` into your profile directory
+2. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/main.zip) and copy the folder `chrome`* into your profile directory
    - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
 3. Restart Firefox
+
+\* *Clarification:* "chrome" refers to the technical term ["user interface chrome"](https://en.wikipedia.org/wiki/Graphical_user_interface#GUI_and_interaction_design), not the Browser called Chrome. This exact folder name is required by Firefox.
 
 ## ⚙️ Customization
 
