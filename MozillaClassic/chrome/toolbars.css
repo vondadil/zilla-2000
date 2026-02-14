@@ -277,6 +277,10 @@ See the above repository for full source, updates as well as full license text. 
 			color: blue !important;
 			text-decoration: underline;
 			cursor: pointer;
+
+			@media (prefers-color-scheme: dark) {
+				color: lightskyblue !important;
+			}
 		}
 		&:active {
 			position: relative;
@@ -288,5 +292,17 @@ See the above repository for full source, updates as well as full license text. 
 			display: none !important;
 		}*/
 		
+	}
+}
+
+#main-window[privatebrowsingmode] {
+    #PersonalToolbar .bookmark-item {
+		&:hover, &:active {
+			color: purple !important;
+
+			@media (prefers-color-scheme: dark) {
+				color: violet !important;
+			}
+		}
 	}
 }
