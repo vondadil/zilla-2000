@@ -1,0 +1,7 @@
+zilla2000
+
+A Mozilla/Netscape Classic theme for modern Firefox
+
+https://github.com/vondadil/zilla-2000
+
+-- vondadil
