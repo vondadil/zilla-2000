@@ -19,7 +19,7 @@ A Mozilla/Netscape Classic theme for modern Firefox
 3. Go to `about:support`, find the entry for your profile directory  and click `Open Directory`
 4. [Download this repository](https://github.com/vondadil/zilla-2000/archive/refs/heads/main.zip) and copy the folder `chrome` into your profile directory
    - If you already have another UserCSS Firefox theme installed, delete the existing chrome folder first! This will remove the old theme.
-6. Go to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
+6. Go to `about:config` (read and accept the warning), search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to true by double-clicking the list entry
 5. Restart Firefox
 
 *Notice:* Not enabling the Title Bar may result in visual bugs
