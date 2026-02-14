@@ -24,6 +24,23 @@ A Mozilla/Netscape Classic theme for modern Firefox
 
 *Notice:* Not enabling the Title Bar may result in visual bugs
 
+## Customization
+
+### Loading Throbber
+
+If you prefer the original Netscape throbber, rename the following files in `chrome/img/throbber`:
+* `throbber-single.gif` -> `mozilla-throbber-single.gif`
+* `throbber-anim.gif` -> `mozilla-throbber-anim.gif`
+* `netscape-throbber-single.gif` -> `throbber-single.gif`
+* `netscape-throbber-anim.gif` -> `throbber-anim.gif`
+
+
+|  | Static | Animated |
+| :-- | :--: | :--: |
+| Mozilla Throbber | ![Mozilla style throbber static](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/throbber-single.gif) | ![Mozilla style throbber animated](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/throbber-anim.gif) |
+| Netscape Throbber | ![Netscape style throbber static](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/netscape-throbber-single.gif) | ![Netscape style throbber animated](https://github.com/vondadil/zilla-2000/blob/main/MozillaClassic/chrome/img/throbber/netscape-throbber-anim.gif) |
+
+
 ## OS and Desktop Environment Support
 Currently only tested with Firefox 147 on Fedora 43 (Xfce, Chicago95 / KDE, Reactionary Plus).
 The theme should be flexible enough to work on most other platforms, though.
@@ -38,6 +55,7 @@ macOS could be glitchy but works for now with Menu Bar and Title Bar enabled.
 - URL bar does not pop out anymore and matches the Mozilla/Netscape Classic style
 - Sidebar matches the Mozilla/Netscape Classic style (icons remain unchanged)
 - All other elements of the browser remain untouched for now
+- In Private Browsing mode the UI has a purple tint
 
 ## Known Issues
 - `Zoom Control` and `Edit Controls` buttons are visually broken (but remain functional)
