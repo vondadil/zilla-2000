@@ -13,7 +13,7 @@
 
 /* Theme Variant */
 @import "variables.css";
-@import "icons.css";
 @import "hacks/toolbar_labels.css";
 @import "toolbars.css";
+@import "icons.css";
 @import "throbber.css";

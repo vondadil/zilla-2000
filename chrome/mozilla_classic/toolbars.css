@@ -66,9 +66,11 @@
 #reload-button,
 #stop-button,
 #print-button,
+#home-button,
 #sidebar-button,
 #unified-extensions-button,
-#fxa-toolbar-menu-button {
+#fxa-toolbar-menu-button,
+#bookmarks-menu-button {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
@@ -78,22 +80,7 @@
 			background-position: top center;
 			background-repeat: no-repeat;
 			background-size: unset;
-		}
-	}
-}
-
-
-#back-button,
-#forward-button,
-#reload-button,
-#stop-button,
-#print-button,
-#sidebar-button,
-#unified-extensions-button,
-#fxa-toolbar-menu-button {
-	&,.toolbarbutton-1,.toolbarbutton-1[label] {
-		.toolbarbutton-icon,
-		.toolbarbutton-badge-stack {
+		
 			margin: auto !important;
 			position: relative;
 			top: 6px;
