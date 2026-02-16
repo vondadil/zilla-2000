@@ -64,14 +64,31 @@
 
 #nav-bar,
 #TabsToolbar {
-	.toolbarbutton-1 {
-		border: 1px solid transparent;
+	.toolbarbutton-1:not(.webextension-browser-action),
+	.toolbaritem-combined-buttons.unified-extensions-item {
+		&:not([disabled]) {
+			border: unset !important;
+			border-width: 1px !important;
+			border-style: solid !important;
+			border-color: transparent !important;
+		}
 	}
 
-	.toolbarbutton-1:not([disabled]):hover
-	.toolbarbutton-1:not([disabled]):active,
-	.toolbarbutton-1:not([disabled])[open] {
-		border-color: var(--zilla-toolbar-border-color-verydark);
+	/* limit extenion name titles in the toolbar */
+	.webextension-browser-action .toolbarbutton-text {
+		max-width: 8ch !important;
+	}
+
+
+	.toolbarbutton-1:not(.webextension-browser-action),
+	.unified-extensions-item {
+		&:not([disabled]) {
+			&:hover,
+			&:active,
+			&:has([open]) {
+				border-color: var(--zilla-toolbar-border-color-verydark) !important;
+			}
+		}
 	}
 }
 

@@ -44,45 +44,61 @@
 
 #nav-bar,
 #TabsToolbar {
-	.toolbarbutton-1 {
+	.toolbarbutton-1,
+	.unified-extensions-item {
 		border: 1px solid transparent;
 	}
 
-	.toolbarbutton-1:not([disabled]):hover {
-		background-color: var(--zilla-ui-bg-color) !important;
-		box-shadow: var(--zilla-win98-button-border-shadow);
+	.toolbarbutton-1,
+	.unified-extensions-item {
+		&:not([disabled],.webextension-browser-action):hover {
+			background-color: var(--zilla-ui-bg-color) !important;
+			box-shadow: var(--zilla-win98-button-border-shadow);
 
-		.toolbarbutton-icon,
-		.toolbarbutton-badge-stack,
-		.toolbarbutton-text {
-			background-color: transparent !important;
+			.toolbarbutton-icon,
+			.toolbarbutton-badge-stack,
+			.toolbarbutton-text {
+				background-color: transparent !important;
+			}
 		}
 	}
 
-	.toolbarbutton-1:not([disabled])[open="true"],
-	.toolbarbutton-1:not([disabled]):active {
-		background-color: var(--zilla-ui-bg-color) !important;
-		box-shadow: var(--zilla-win98-button-border-shadow-active);
-		;
+	.toolbarbutton-1,
+	.unified-extensions-item {
+		&:not([disabled],.webextension-browser-action)[open="true"],
+		&:not([disabled],.webextension-browser-action):has([open="true"]),
+		&:not([disabled],.webextension-browser-action):active {
+			background-color: var(--zilla-ui-bg-color) !important;
+			box-shadow: var(--zilla-win98-button-border-shadow-active);
+			;
 
-		.toolbarbutton-icon,
-		.toolbarbutton-badge-stack,
-		.toolbarbutton-text {
-			background-color: transparent !important;
+			.toolbarbutton-icon,
+			.toolbarbutton-badge-stack,
+			.toolbarbutton-text {
+				background-color: transparent !important;
+			}
 		}
 	}
 }
 
 /* Limit Icon size (for non-replaced icons) */
 #nav-bar {
-	.toolbarbutton-1 {
+	.toolbarbutton-1,
+	.unified-extensions-item {
 		&,&[label] {
 			.toolbarbutton-icon,
 			.toolbarbutton-badge-stack {
 				width: 16px !important;
 				height: 16px !important;
+			}
+
+			.toolbarbutton-icon {
 				position: relative;
 				top: 6px;
+			}
+
+			.toolbarbutton-badge-stack .toolbarbutton-icon {
+				top: unset;
 			}
 		}
 	}

@@ -3,7 +3,7 @@
  */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
 
-
+/* 
 slider {
     appearance: initial !important;
     background-color: #86c0be !important;
@@ -13,4 +13,4 @@ thumb {
     appearance: initial !important;
     background-color: #86c0be !important;
     border: 1px solid #418bd4 !important;
-}
+} */
