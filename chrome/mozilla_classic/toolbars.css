@@ -3,6 +3,12 @@
 /* Toolbar handles and backgrounds */
 #navigator-toolbox {
 }
+
+#PersonalToolbar,#toolbar-menubar,#nav-bar {
+	padding-left: 12px !important;
+}
+
+
 #PersonalToolbar,#toolbar-menubar,#nav-bar{
 
 	@media (prefers-color-scheme: light) {
@@ -27,5 +33,72 @@
 	.toolbarbutton-text {
 		display: flex !important;
 		align-items: flex-end;
+	}
+}
+
+
+#nav-bar {
+	.toolbarbutton-1,
+	.toolbaritem-combined-buttons {
+		align-items: stretch !important;
+	}
+
+	.toolbarbutton-text {
+		display: flex !important;
+		align-items: flex-end;
+	}
+
+	.toolbarbutton-badge-stack {
+		min-height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+		padding-top: 0 !important;
+		align-items: center !important;
+		/*min-width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;*/
+	}
+
+	.toolbarbutton-badge {
+		position: relative;
+		top: 6px;
+	}
+}
+
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#print-button,
+#sidebar-button,
+#unified-extensions-button,
+#fxa-toolbar-menu-button {
+	&,.toolbarbutton-1,.toolbarbutton-1[label] {
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack {
+			list-style-image: none !important;
+			margin: auto !important;
+			display: flex !important;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: unset;
+		}
+	}
+}
+
+
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#print-button,
+#sidebar-button,
+#unified-extensions-button,
+#fxa-toolbar-menu-button {
+	&,.toolbarbutton-1,.toolbarbutton-1[label] {
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack {
+			margin: auto !important;
+			position: relative;
+			top: 6px;
+			width: var(--zilla-toolbar-button-icon-size) !important;
+			height: var(--zilla-toolbar-button-icon-size) !important;
+		}
 	}
 }

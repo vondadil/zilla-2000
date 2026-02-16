@@ -18,3 +18,24 @@
 /*#stop-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/stop-hover.png') !important; }*/
 #stop-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/stop-hover.png') !important; }
 #stop-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/stop-disabled.png') !important; }
+
+
+#home-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/home.png') !important; }
+/*#home-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/home-hover.png') !important; }*/
+#home-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/home-hover.png') !important; }
+#home-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/home-disabled.png') !important; }
+
+
+#print-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/print.png') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/print-hover.png') !important; }*/
+#print-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/print-hover.png') !important; }
+#print-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/print-disabled.png') !important; }
+
+
+#bookmarks-menu-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmarks.png') !important; }
+/*#bookmarks-menu-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmark-hover.png') !important; }*/
+#bookmarks-menu-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmarks-hover.png') !important; }
+#bookmarks-menu-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmarks-disabled.png') !important; }
+
+#downloads-button,
+#downloads-button.toolbarbutton-1:not([disabled]):hover { background-image: url('img/icons/toolbar/downloads.png') !important; }

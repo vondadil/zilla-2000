@@ -1,0 +1,97 @@
+#nav-bar {
+	.toolbarbutton-1 {
+		min-width: 42px;
+		/* display: flex;
+		align-items: center;
+		justify-content: center; */
+
+		&:not([disabled]):hover {
+			&,
+			.toolbarbutton-icon,
+			.toolbarbutton-badge-stack { background-color: transparent !important; }
+		}
+
+		.toolbarbutton-icon {
+			padding: 0 !important;
+
+		}
+	}
+}
+
+
+/* Fix sizes of toolbar button icons */
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#print-button,
+#home-button,
+#bookmarks-menu-button,
+#downloads-button
+#fxa-toolbar-menu-button,
+#downloads-indicator-icon {
+	.toolbarbutton-1,.toolbarbutton-1[label], .toolbarbutton-icon {
+		&,
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack {
+			width: var(--zilla-toolbar-button-icon-size);
+			height: var(--zilla-toolbar-button-icon-size);
+		}
+	}
+}
+
+/* Extra Size for Icons that have no replaced icons and would grow too large with the default styling above */
+#unified-extensions-button {
+	.toolbarbutton-icon {
+		width: var(--zilla-toolbar-button-icon-size-constrained) !important;
+		height: var(--zilla-toolbar-button-icon-size-constrained) !important;
+	}
+}
+
+
+
+/* Remove default icons from toolbar buttons that have their icons replaced in icon.css */
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#print-button,
+#home-button,
+#bookmarks-menu-button,
+#downloads-button,
+#downloads-indicator-icon {
+	&,.toolbarbutton-1,.toolbarbutton-1[label] {
+		&,
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack {
+			/* Repeating stylings from common/toolbars.css here because no browser supports @mixin yet :( */
+			list-style-image: none !important;
+			display: flex;
+			background-repeat: no-repeat;
+			background-size: unset;
+			background-position: center;
+
+			&,&:hover {
+				background-color: transparent !important;
+			}
+			
+		}
+
+		.toolbarbutton-badge-stack {
+			display: unset;
+		}
+	}
+}
+
+
+/* Always show downloads button */
+#downloads-button {
+    display: flex !important;
+}
+
+#downloads-indicator-icon {
+	width: var(--zilla-toolbar-button-icon-size);
+	height: var(--zilla-toolbar-button-icon-size);
+}
+#downloads-indicator-progress-outer,
+#downloads-indicator-finish-image { background-color: white; }
