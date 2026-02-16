@@ -68,7 +68,7 @@
 		border: 1px solid transparent;
 	}
 
-	.toolbarbutton-1:not([disabled]):hover,
+	.toolbarbutton-1:not([disabled]):hover
 	.toolbarbutton-1:not([disabled]):active,
 	.toolbarbutton-1:not([disabled])[open] {
 		border-color: var(--zilla-toolbar-border-color-verydark);

@@ -49,6 +49,23 @@
 }
 
 
+#nav-bar {
+	.toolbarbutton-1 {
+		&,&[label] {
+			.toolbarbutton-icon,
+			.toolbarbutton-badge-stack {
+				top: unset;
+			}
+		}
+	}
+}
+
+
+#nav-bar .toolbarbutton-1 {
+	& > .toolbarbutton-icon, & > .toolbarbutton-text, & > .toolbarbutton-badge-stack {
+		padding: 0 !important;
+	}
+}
 
 /* Remove default icons from toolbar buttons that have their icons replaced in icon.css */
 #back-button,
@@ -61,21 +78,30 @@
 #downloads-button,
 #downloads-indicator-icon {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
+		align-items: center;
+
 		&,
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
 			/* Repeating stylings from common/toolbars.css here because no browser supports @mixin yet :( */
 			list-style-image: none !important;
 			display: flex;
+			align-items: center;
 			background-repeat: no-repeat;
 			background-size: unset;
 			background-position: center;
+			width: var(--zilla-toolbar-button-icon-size) !important;
+			height: unset !important;
+			min-height: var(--zilla-toolbar-button-icon-size);
+			/* top: 6px; */
 
 			&,&:hover,&:active,&[open] {
 				background-color: transparent !important;
 			}
 			
 		}
+
+		.toolbarbutton-text { display: none !important; }
 
 		.toolbarbutton-badge-stack {
 			display: unset;
