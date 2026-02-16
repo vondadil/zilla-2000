@@ -1,0 +1,52 @@
+:root {
+  --zilla-throber-size: 24px;
+}
+
+#PanelUI-button .toolbarbutton-1[label] > .toolbarbutton-text { display: none !important; }
+
+
+#nav-bar {
+    position: static !important;
+}
+
+#PanelUI-button {
+  padding: 0;
+  
+  &,
+  .toolbarbutton-1,
+  .toolbarbutton-badge-stack,
+  .toolbarbutton-icon {
+    width: var(--zilla-throber-size) !important;
+    height: var(--zilla-throber-size) !important;
+    padding: 0 !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+}
+
+#PanelUI-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  &,&:hover,&:active,&[open] {
+    .toolbarbutton-1,.toolbarbutton-1[label] {
+      &,&:hover {
+        background: url("img/throbber/Throbber.png") no-repeat !important;
+      }
+    }
+  }
+}
+
+#PanelUI-button .toolbarbutton-badge {
+  visibility: collapse !important;
+}
+
+#PanelUI-menu-button .toolbarbutton-icon {
+  visibility: collapse !important;
+}
+
+/* Animate Throbber when loading a page (like old times! :) ) */
+#navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button .toolbarbutton-1,
+#navigator-toolbox:has(.tab-icon-stack[busy="true"]) #PanelUI-button .toolbarbutton-1:hover {
+  background-image: url("img/throbber/Throbber.gif") !important;
+}

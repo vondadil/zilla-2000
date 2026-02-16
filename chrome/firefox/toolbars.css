@@ -77,7 +77,8 @@
 #bookmarks-menu-button,
 #downloads-button,
 #downloads-indicator-icon,
-#unified-extensions-button {
+#unified-extensions-button,
+#PanelUI-menu-button {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		align-items: center;
 
