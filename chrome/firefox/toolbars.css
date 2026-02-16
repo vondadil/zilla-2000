@@ -71,7 +71,7 @@
 			background-size: unset;
 			background-position: center;
 
-			&,&:hover {
+			&,&:hover,&:active,&[open] {
 				background-color: transparent !important;
 			}
 			

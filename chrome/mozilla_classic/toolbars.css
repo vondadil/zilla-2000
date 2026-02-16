@@ -61,6 +61,21 @@
 	}
 }
 
+
+#nav-bar,
+#TabsToolbar {
+	.toolbarbutton-1 {
+		border: 1px solid transparent;
+	}
+
+	.toolbarbutton-1:not([disabled]):hover,
+	.toolbarbutton-1:not([disabled]):active,
+	.toolbarbutton-1:not([disabled])[open] {
+		border-color: var(--zilla-toolbar-border-color-verydark);
+	}
+}
+
+
 #back-button,
 #forward-button,
 #reload-button,
@@ -94,6 +109,7 @@
 
 #nav-bar-overflow-button {
 	min-width: 0;
+	margin-left: 4px !important;
 	margin-right: 4px !important;
 	
 	.toolbarbutton-icon {
@@ -105,3 +121,5 @@
 	
 	/* box-shadow: var(--zilla-win98-button-border-shadow); */
 }
+
+
