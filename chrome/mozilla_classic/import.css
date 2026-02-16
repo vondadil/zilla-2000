@@ -15,5 +15,6 @@
 @import "variables.css";
 @import "hacks/toolbar_labels.css";
 @import "toolbars.css";
+@import "tabs.css";
 @import "icons.css";
 @import "throbber.css";

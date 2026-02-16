@@ -175,25 +175,6 @@
 		}
 	}
 
-	.tab-close-button {
-		list-style-image: unset !important;
-		width: 24px !important;
-		background: url('img/icons/small/close-button.gif') center no-repeat;
-
-		@media(prefers-color-scheme: dark) {
-			background-image: url('img/icons/small/close-button-darkmode.gif');
-		}
-
-
-
-		&:hover {
-			box-shadow: var(--zilla-win98-button-border-shadow) !important;
-			background-color: transparent !important;
-		}
-		&:active {
-			box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
-		}
-	}
 
 	/*#firefox-view-button {
 		.toolbarbutton-icon {
@@ -212,15 +193,5 @@
 	#firefox-view-button[open] {
 		background-color: var(--zilla-ui-bg-color) !important;
 		box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
-	}
-
-	#tabs-newtab-button {
-		list-style-image: none !important;
-
-		&,&:hover,&:active {
-			.toolbarbutton-icon {
-				background: url('img/icons/small/tab-new.gif') center no-repeat;
-			}
-		}
 	}
 }
