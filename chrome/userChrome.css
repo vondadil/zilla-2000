@@ -1,18 +1,17 @@
-@import "external/tabs_on_bottom_v2.css";
-
-/* Widget themeing */
-@import "variables.css";
-@import "mainwindow.css";
-@import "tabs.css";
-@import "statusbar.css";
-@import "toolbars.css";
-@import "urlbar.css"; 
-@import "throbber.css";
-@import "sidebar.css";
+/* Uncomment one file import to use that variation: */
 
 
+/* Theme Variation: Mozilla 1.7 Classic */
+@import url("mozilla_classic.css");
 
-#main-window {
-   background-color: var(--bg_color) !important;
-   color: var(--fg_color) !important;
-}
+
+/* Theme Variation: Mozilla 1.7 Modern */
+/*@import url("mozilla_modern.css");*/
+
+
+/* Theme Variation: Firefox 1.0 - 1.5 */
+/*@import url("mozilla_firefox.css");*/
+
+
+/* Theme Variation: Firefox 2.0 */
+/*@import url("mozilla_firefox_2_0.css");*/
