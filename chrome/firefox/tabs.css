@@ -1,0 +1,55 @@
+#TabsToolbar {
+    .tab-close-button {
+       
+
+        &:hover,
+        &:active {
+            box-shadow: none !important;
+            border: none !important;
+        }
+    }
+
+    .tabbrowser-tab {
+        &:hover {
+            .tab-close-button {
+                 background-image: url('img/icons/close-0.png');
+
+                 &:hover {
+                    background-image: url('img/icons/close-1.png');
+                }
+
+                &:active {
+                    background-image: url('img/icons/close-2.png');
+                }
+            }
+            
+        }
+    }    
+}
+
+
+
+
+#tabs-newtab-button {
+	background-image: url('img/icons/toolbar/tab_new.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: transparent !important;
+    position: relative;
+    top: 4px;
+
+    &:hover, &:active {
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    /* &,&:hover,&:active { &,.toolbarbutton-icon { background-color: transparent !important; } } */
+
+    &:hover { background-image: url('img/icons/toolbar/tab_new-hover.png'); }
+    &:active {
+        position: relative;
+        top: 5px;
+        left: 1px;
+    }
+}

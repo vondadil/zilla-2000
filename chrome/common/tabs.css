@@ -219,7 +219,7 @@
 
 		&,&:hover,&:active {
 			.toolbarbutton-icon {
-				background: url('img/icons/small/tab-new.gif') center no-repeat !important;
+				background: url('img/icons/small/tab-new.gif') center no-repeat;
 			}
 		}
 	}
