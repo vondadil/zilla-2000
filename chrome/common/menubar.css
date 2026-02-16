@@ -17,3 +17,12 @@
 		box-shadow: var(--zilla-win98-button-border-shadow-active);
 	}
 }
+
+/* hide menubar fully when inactive */
+#toolbar-menubar:is([inactive]) {
+ &, #main-menubar > menu {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+}
