@@ -194,4 +194,22 @@
 		background-color: var(--zilla-ui-bg-color) !important;
 		box-shadow: var(--zilla-win98-button-border-shadow-active) !important;
 	}
+
+	.tab-close-button {
+		list-style-image: unset !important;
+		width: 24px;
+		background-position: center;
+		background-repeat: no-repeat;
+
+
+
+		&:hover {
+			background-color: transparent !important;
+		}
+	}
+
+	#tabs-newtab-button {
+		list-style-image: none !important;
+	}
 }
+
