@@ -18,10 +18,6 @@
 #home-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/small/home-active.gif') !important; }
 #home-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/small/home-disabled.gif') !important; }
 
-#home-button .toolbarbutton-icon {
-    background-size: 24px !important;
-}
-
 #stop-button > .toolbarbutton-icon { background-image: url('img/icons/stop.gif') !important; }
 /*#stop-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/stop-hover.gif') !important; }*/
 #stop-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/stop-active.gif') !important; }
@@ -50,10 +46,19 @@
 #fxa-toolbar-menu-button:not([disabled]):active .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
 #fxa-toolbar-menu-button[disabled] .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
 
-
-#fxa-toolbar-menu-button .avatar-container { display: none !important; }
-
 #bookmarks-menu-button > .toolbarbutton-icon { background-image: url('img/icons/small/bookmark-folder-button.gif') !important; }
 /*#bookmarks-menu-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmark-hover.png') !important; }*/
 #bookmarks-menu-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/small/bookmark-folder-button.gif') !important; }
 #bookmarks-menu-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/small/bookmark-folder-button.gif') !important; }
+
+
+
+#home-button,
+#bookmarks-menu-button {
+    .toolbarbutton-icon {
+        background-size: 24px !important;
+    }
+}
+
+
+#fxa-toolbar-menu-button .avatar-container { display: none !important; }

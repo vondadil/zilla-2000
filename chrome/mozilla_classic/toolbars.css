@@ -70,7 +70,8 @@
 #sidebar-button,
 #unified-extensions-button,
 #fxa-toolbar-menu-button,
-#bookmarks-menu-button {
+#bookmarks-menu-button,
+#nav-bar-overflow-button {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
@@ -88,4 +89,19 @@
 			height: var(--zilla-toolbar-button-icon-size) !important;
 		}
 	}
+}
+
+
+#nav-bar-overflow-button {
+	min-width: 0;
+	margin-right: 4px !important;
+	
+	.toolbarbutton-icon {
+		background-image: url('img/icons/small/tbgrip-arrow.gif');
+	}
+
+	.toolbarbutton-animatable-box { display: none !important; }
+	.toolbarbutton-text { display: none !important; }
+	
+	/* box-shadow: var(--zilla-win98-button-border-shadow); */
 }

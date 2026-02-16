@@ -52,6 +52,12 @@
 		background-color: var(--zilla-ui-bg-color) !important;
 		box-shadow: var(--zilla-win98-button-border-shadow);
 		border-color: black;
+
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack,
+		.toolbarbutton-text {
+			background-color: transparent !important;
+		}
 	}
 
 	.toolbarbutton-1:not([disabled])[open="true"],
@@ -59,6 +65,12 @@
 		background-color: var(--zilla-ui-bg-color) !important;
 		box-shadow: var(--zilla-win98-button-border-shadow-active);
 		;
+
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack,
+		.toolbarbutton-text {
+			background-color: transparent !important;
+		}
 	}
 }
 
