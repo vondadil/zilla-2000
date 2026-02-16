@@ -39,3 +39,14 @@
 
 #downloads-button,
 #downloads-button.toolbarbutton-1:not([disabled]):hover { background-image: url('img/icons/toolbar/downloads.png') !important; }
+
+
+#unified-extensions-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
+/*#unified-extensions-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions-hover.png') !important; }*/
+#unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
+#unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
+
+
+#unified-extensions-button > .toolbarbutton-icon {
+    background-size: 24px !important;
+}

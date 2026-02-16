@@ -76,7 +76,8 @@
 #home-button,
 #bookmarks-menu-button,
 #downloads-button,
-#downloads-indicator-icon {
+#downloads-indicator-icon,
+#unified-extensions-button {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		align-items: center;
 
