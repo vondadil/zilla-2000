@@ -5,11 +5,11 @@
 ----
 
 <div align="center">
-  <a href="#features">🌟 Features</a> -
-  <a href="#installation">🚀 Installation</a> -
-  <a href="#features">⚙️ Customization</a>  -
-  <a href="#screenshots">🖼️ Screenshots</a> -
-  <a href="#more-information">❓ More Info</a>
+  <a href="#-features">🌟 Features</a> -
+  <a href="#-installation">🚀 Installation</a> -
+  <a href="#%EF%B8%8F-customization">⚙️ Customization</a>  -
+  <a href="#%EF%B8%8F-screenshots">🖼️ Screenshots</a> -
+  <a href="#-more-information">❓ More Info</a>
 </div>
 
 ----
