@@ -2,7 +2,7 @@
 
 
 /* Theme Variation: Mozilla 1.7 Classic */
-/*@import url("mozilla_classic.css");*/
+@import url("mozilla_classic.css");
 
 
 /* Theme Variation: Mozilla 1.7 Modern */
@@ -10,7 +10,7 @@
 
 
 /* Theme Variation: Firefox 1.0 - 1.5 */
-@import url("mozilla_firefox.css");
+/*@import url("mozilla_firefox.css");*/
 
 
 /* Theme Variation: Firefox 2.0 */

@@ -6,6 +6,12 @@
 
 
 
+#main-window {
+   background-color: var(--bg_color) !important;
+   color: var(--fg_color) !important;
+}
+
+
 #navigator-toolbox {
     background-color: var(--zilla-ui-bg-color) !important;
 }

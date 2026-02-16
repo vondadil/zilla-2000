@@ -1,18 +1,19 @@
+
+/* Common */
 @import "common/external/tabs_on_bottom_v2.css";
+@import "common/variables.css";
+@import "common/mainwindow.css";
+@import "common/menubar.css";
+@import "common/toolbars.css";
+@import "common/bookmarksbar.css";
+@import "common/urlbar.css";
+@import "common/sidebar.css";
+@import "common/tabs.css";
 
-/* Widget themeing */
+
+/* Theme Variant */
 @import "mozilla_classic/variables.css";
-@import "mozilla_classic/mainwindow.css";
-@import "mozilla_classic/tabs.css";
-@import "mozilla_classic/statusbar.css";
+@import "mozilla_classic/icons.css";
+@import "mozilla_classic/hacks/toolbar_labels.css";
 @import "mozilla_classic/toolbars.css";
-@import "mozilla_classic/urlbar.css"; 
 @import "mozilla_classic/throbber.css";
-@import "mozilla_classic/sidebar.css";
-
-
-
-#main-window {
-   background-color: var(--bg_color) !important;
-   color: var(--fg_color) !important;
-}
