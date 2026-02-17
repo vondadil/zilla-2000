@@ -12,14 +12,14 @@
     .tabbrowser-tab {
         &:hover {
             .tab-close-button {
-                 background-image: url('img/icons/close-0.png');
+                 background-image: url('img/icons/small/close-0.png');
 
                  &:hover {
-                    background-image: url('img/icons/close-1.png');
+                    background-image: url('img/icons/small/close-1.png');
                 }
 
                 &:active {
-                    background-image: url('img/icons/close-2.png');
+                    background-image: url('img/icons/small/close-2.png');
                 }
             }
             
