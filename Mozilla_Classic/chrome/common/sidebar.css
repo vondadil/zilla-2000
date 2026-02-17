@@ -1,0 +1,16 @@
+#sidebar-main {
+	background: var(--zilla-ui-bg-color);
+
+	border-left: 1px solid var(--zilla-toolbar-border-color-dark);
+
+	sidebar-main {
+		border-left: 1px solid var(--zilla-toolbar-border-color-light) !important;
+		border-right: 1px solid var(--zilla-toolbar-border-color-dark);
+	}
+	
+}
+
+.browserContainer {
+	box-shadow: unset !important;
+	border: none !important;
+}
