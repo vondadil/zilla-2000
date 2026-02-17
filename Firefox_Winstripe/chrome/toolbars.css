@@ -19,26 +19,6 @@
 }
 
 
-/* Fix sizes of toolbar button icons */
-#back-button,
-#forward-button,
-#reload-button,
-#stop-button,
-#print-button,
-#home-button,
-#bookmarks-menu-button,
-#downloads-button
-#fxa-toolbar-menu-button,
-#downloads-indicator-icon {
-	.toolbarbutton-1,.toolbarbutton-1[label], .toolbarbutton-icon {
-		&,
-		.toolbarbutton-icon,
-		.toolbarbutton-badge-stack {
-			width: var(--zilla-toolbar-button-icon-size);
-			height: var(--zilla-toolbar-button-icon-size);
-		}
-	}
-}
 
 /* Extra Size for Icons that have no replaced icons and would grow too large with the default styling above */
 
@@ -78,20 +58,19 @@
 #downloads-button,
 #downloads-indicator-icon,
 #unified-extensions-button,
+#new-tab-button,
+#new-window-button,
+#history-panelmenu,
 #PanelUI-menu-button {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
-		align-items: center;
-
 		&,
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
 			/* Repeating stylings from common/toolbars.css here because no browser supports @mixin yet :( */
 			list-style-image: none !important;
-			display: flex;
-			align-items: center;
-			background-repeat: no-repeat;
+			background-repeat: no-repeat !important;
 			background-size: unset;
-			background-position: center;
+			background-position: center !important;
 			width: var(--zilla-toolbar-button-icon-size) !important;
 			height: unset !important;
 			min-height: var(--zilla-toolbar-button-icon-size);
@@ -102,6 +81,8 @@
 			}
 			
 		}
+
+		hbox { display: none; }
 
 		.toolbarbutton-text { display: none !important; }
 
@@ -121,7 +102,7 @@
 			position: absolute;
 			top: 0;
 			right: 0;
-			background-image: url('img/icons/alert-1.png');
+			background-image: url('img/icons/small/alert-0.png');
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 100%;
@@ -132,14 +113,38 @@
 
 /* downloads button */
 
+#downloads-button {
+}
+
 #downloads-indicator-icon {
 	width: var(--zilla-toolbar-button-icon-size);
 	height: var(--zilla-toolbar-button-icon-size);
 }
 #downloads-indicator-progress-outer,
-#downloads-indicator-finish-image { background-color: white; }
+#downloads-indicator-finish-image { background-color: rgba(255,255,255,0.9); }
+
+#downloads-indicator-finish-box {
+	overflow: hidden;	
+	border-radius: 100%;
+}
 
 
 /* extensions button */
 #unified-extensions-button {
+	&, .toolbarbutton-icon {
+		background-size: 26px !important;
+	}
+}
+
+
+/* web extension icons */
+.webextension-browser-action {
+
+	&,
+	.toolbarbutton-icon,
+	.toolbarbutton-badge-stack {
+		min-height: var(--zilla-webextenion-icon-size);
+		min-width: var(--zilla-webextenion-icon-size);
+		background-size: var(--zilla-webextenion-icon-size) !important;
+	}
 }

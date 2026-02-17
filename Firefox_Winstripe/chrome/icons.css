@@ -41,12 +41,34 @@
 #downloads-button.toolbarbutton-1:not([disabled]):hover { background-image: url('img/icons/toolbar/downloads.png') !important; }
 
 
+#new-tab-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/tab_new.png') !important; }
+/*#new-tab-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmark-hover.png') !important; }*/
+#new-tab-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/tab_new-hover.png') !important; }
+#new-tab-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/tab_new-disabled.png') !important; }
+
+#new-window-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/window_new.png') !important; }
+/*#new-window-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmark-hover.png') !important; }*/
+#new-window-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/window_new-hover.png') !important; }
+#new-window-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/window_new-disabled.png') !important; }
+
+
+new-window-button
+
+#history-panelmenu > .toolbarbutton-icon { background-image: url('img/icons/toolbar/history.png') !important; }
+/*#history-panelmenu:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmark-hover.png') !important; }*/
+#history-panelmenu:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/history-hover.png') !important; }
+#history-panelmenu[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/history-disabled.png') !important; }
+
+/*
+#fxa-toolbar-menu-button .toolbarbutton-icon { background-image: url('img/icons/profileicon.png') !important; }
+#fxa-toolbar-menu-button:not([disabled]):active .toolbarbutton-icon { background-image: url('img/icons/profileicon-hover.png') !important; }
+#fxa-toolbar-menu-button[disabled] .toolbarbutton-icon { background-image: url('img/icons/profileicon-disabled.png') !important; }
+
+#fxa-toolbar-menu-button .toolbarbutton-icon { background-size: 20px !important; }
+*/
+
+
 #unified-extensions-button > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
 /*#unified-extensions-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions-hover.png') !important; }*/
 #unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
 #unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
-
-
-#unified-extensions-button > .toolbarbutton-icon {
-    background-size: 26px !important;
-}

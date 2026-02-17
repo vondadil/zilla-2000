@@ -1,4 +1,6 @@
 :root {
 	--zilla-toolbar-button-icon-size: 32px;
 	--zilla-toolbar-button-icon-size-constrained: 16px;
+
+	--zilla-webextenion-icon-size: 20px;
 }
