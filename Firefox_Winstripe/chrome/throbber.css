@@ -16,20 +16,13 @@
   .toolbarbutton-1,
   .toolbarbutton-badge-stack,
   .toolbarbutton-icon {
-    /* width: var(--zilla-throber-size) !important;
-    height: var(--zilla-throber-size) !important; */
-    width: var(--zilla-toolbar-icon-size) !important;
-  height: var(--zilla-toolbar-icon-size) !important;
-    padding: 0 !important;
-    min-width: 0 !important;
-    min-height: 0 !important;
+    
   }
 }
 
 
 
 #PanelUI-menu-button {
-  
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("img/throbber/Throbber.png");
@@ -40,63 +33,6 @@
   &,&:hover,&:active { #PanelUI-menu-button { background-image: url("img/throbber/Throbber.gif") !important; } }
 }
 
-
-
-/* If the menu bar is enabled, show the throbber in the menu bar */
-/* #navigator-toolbox:not(:has(#toolbar-menubar[inactive])) {
-
-  #PanelUI-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    
-    background: none !important;
-
-    &,
-    .toolbarbutton-1,
-    .toolbarbutton-badge-stack,
-    .toolbarbutton-icon {
-      width: 24px !important;
-      height: 24px !important;
-    }
-
-    #PanelUI-menu-button {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 16px;
-
-        &:hover, &:is([open]) {
-          overflow: hidden;
-          background-size: unset;
-          background-image: url("img/icons/icon32_cropped.png");
-        }
-
-        /* &:hover {
-          box-shadow: inset 1px 0 2px rgba(0,0,0,0.5);
-          cursor: pointer;
-          opacity: 0.9;
-        }
-        &:active,&:is([open]) {
-          opacity: 1;
-          box-shadow: inset 1px 0 3px rgba(0,0,0,0.7);
-        } */
-      }
-
-    *
-    
-
-    /* &:hover,&:active,&:is([open] {
-      .toolbarbutton-1,.toolbarbutton-1[label] {
-        &,&:hover {
-          background: url("img/icons/icon32.png") no-repeat !important;
-          background-size: 16px !important;
-        }
-      }
-    } */
-
-  }
-
-} */
 
 #PanelUI-button .toolbarbutton-badge {
   visibility: collapse !important;
