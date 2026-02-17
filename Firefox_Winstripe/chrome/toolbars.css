@@ -41,12 +41,12 @@
 }
 
 /* Extra Size for Icons that have no replaced icons and would grow too large with the default styling above */
-#unified-extensions-button {
+
 	.toolbarbutton-icon {
-		width: var(--zilla-toolbar-button-icon-size-constrained) !important;
-		height: var(--zilla-toolbar-button-icon-size-constrained) !important;
+		width: var(--zilla-toolbar-button-icon-size-constrained);
+		height: var(--zilla-toolbar-button-icon-size-constrained);
 	}
-}
+
 
 
 #nav-bar {
@@ -109,13 +109,28 @@
 			display: unset;
 		}
 	}
+
+	/* enable little signs on the toolbar icons if they require attention */
+	&[attention] {
+		position: relative;
+
+		&::after {
+			content: "";
+			width: 16px;
+			height: 16px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			background-image: url('img/icons/alert-1.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+	}
 }
 
 
-/* Always show downloads button */
-#downloads-button {
-    display: flex !important;
-}
+/* downloads button */
 
 #downloads-indicator-icon {
 	width: var(--zilla-toolbar-button-icon-size);
@@ -123,3 +138,8 @@
 }
 #downloads-indicator-progress-outer,
 #downloads-indicator-finish-image { background-color: white; }
+
+
+/* extensions button */
+#unified-extensions-button {
+}
