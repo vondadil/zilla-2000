@@ -7,10 +7,12 @@
 
  */
 
+@import "../../../common/variables.css";
+@import "variables.css";
+
 
 /* Common */
 @import "../../../common/external/tabs_on_bottom_v2.css";
-@import "../../../common/variables.css";
 @import "../../../common/mainwindow.css";
 @import "../../../common/menubar.css";
 @import "../../../common/toolbars.css";
@@ -21,7 +23,7 @@
 
 
 /* Theme Variant */
-@import "variables.css";
+
 @import "hacks/toolbar_labels.css";
 @import "toolbars.css";
 @import "tabs.css";

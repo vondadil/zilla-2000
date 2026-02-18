@@ -1,0 +1,6 @@
+:root, #main-window {
+    --zilla-ui-bg-color-light: #dde3eb;
+    --zilla-ui-bg-color: #dde3eb;
+
+    --zilla-ui-bg-gradient: linear-gradient(#dde3eb,#bccadb);
+}

@@ -12,18 +12,22 @@
 #PersonalToolbar,#toolbar-menubar,#nav-bar{
 
 	@media (prefers-color-scheme: light) {
-		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+		background: var(--zilla-ui-bg-gradient) url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+		background: var(--zilla-ui-bg-gradient) !important;
 	}
 	@media(prefers-color-scheme: dark) {
-			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+			background: var(--zilla-ui-bg-gradient) url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+			background: var(--zilla-ui-bg-gradient) !important;
 	}
 }
 #toolbar-menubar {
 	@media (prefers-color-scheme: light) {
-		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+		background: var(--zilla-ui-bg-gradient) url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+		background: var(--zilla-ui-bg-gradient) !important;
 	}
 	@media(prefers-color-scheme: dark) {
-			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+			background: var(--zilla-ui-bg-gradient) url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+			background: var(--zilla-ui-bg-gradient) !important;
 	}
 }
 
