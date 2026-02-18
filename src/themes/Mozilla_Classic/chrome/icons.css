@@ -15,8 +15,8 @@
 
 #home-button > .toolbarbutton-icon { background-image: url('img/icons/small/home.gif') !important; }
 /*#home-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/home-hover.gif') !important; }*/
-#home-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/small/home-active.gif') !important; }
-#home-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/small/home-disabled.gif') !important; }
+/* #home-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/small/home-active.gif') !important; }
+#home-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/small/home-disabled.gif') !important; } */
 
 #stop-button > .toolbarbutton-icon { background-image: url('img/icons/stop.gif') !important; }
 /*#stop-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/stop-hover.gif') !important; }*/

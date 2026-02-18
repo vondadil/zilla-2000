@@ -3,9 +3,10 @@ See the above repository for updates as well as full license text. */
 
 /* This reorders toolbar to place tabs below other toolbars. Requires Firefox 133+ */
 
-@media -moz-pref("userchrome.force-window-controls-on-left.enabled"){
+@media -moz-pref ("userchrome.force-window-controls-on-left.enabled"){
   #nav-bar > .titlebar-buttonbox-container{
     order: -1 !important;
+
     > .titlebar-buttonbox{
       flex-direction: row-reverse;
     }

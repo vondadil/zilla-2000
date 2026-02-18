@@ -9,15 +9,15 @@
 
 
 /* Common */
-@import "../../common/external/tabs_on_bottom_v2.css";
-@import "../../common/variables.css";
-@import "../../common/mainwindow.css";
-@import "../../common/menubar.css";
-@import "../../common/toolbars.css";
-@import "../../common/bookmarksbar.css";
-@import "../../common/urlbar.css";
-@import "../../common/sidebar.css";
-@import "../../common/tabs.css";
+@import "../../../common/external/tabs_on_bottom_v2.css";
+@import "../../../common/variables.css";
+@import "../../../common/mainwindow.css";
+@import "../../../common/menubar.css";
+@import "../../../common/toolbars.css";
+@import "../../../common/bookmarksbar.css";
+@import "../../../common/urlbar.css";
+@import "../../../common/sidebar.css";
+@import "../../../common/tabs.css";
 
 
 /* Theme Variant */
@@ -33,4 +33,4 @@
 @import url("throbber.css");
 @import url("icons.css");
 @import url("tabs.css");
-@import url("menubar.css");
+/* @import url("menubar.css"); */

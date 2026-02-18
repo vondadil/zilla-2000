@@ -1,0 +1,17 @@
+{
+  "name": "zilla-2000",
+  "version": "1.0.0",
+  "repository": "git@github.com:vondadil/zilla-2000.git",
+  "author": "vondadil <vondadil@vonvon.space>",
+  "license": "BSD 2",
+  "private": true,
+  "browserslist": [
+    "Firefox >= 145"
+  ],
+  "scripts": {
+  "build:css": "node build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.3"
+  }
+}
