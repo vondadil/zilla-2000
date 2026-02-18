@@ -1,0 +1,64 @@
+#back-button > .toolbarbutton-icon { background-image: url('img/icons/back.gif') !important; }
+/*#back-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/back-hover.gif') !important; }*/
+#back-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/back-active.gif') !important; }
+#back-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/back-disabled.gif') !important; }
+
+#forward-button > .toolbarbutton-icon { background-image: url('img/icons/forward.gif') !important; }
+/*#forward-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/forward-hover.gif') !important; }*/
+#forward-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/forward-active.gif') !important; }
+#forward-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/forward-disabled.gif') !important; }
+
+#reload-button > .toolbarbutton-icon { background-image: url('img/icons/reload.gif') !important; }
+/*#reload-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/reload-hover.gif') !important; }*/
+#reload-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/reload-active.gif') !important; }
+#reload-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/reload-disabled.gif') !important; }
+
+#home-button > .toolbarbutton-icon { background-image: url('img/icons/small/home.gif') !important; }
+/*#home-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/home-hover.gif') !important; }*/
+/* #home-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/small/home-active.gif') !important; }
+#home-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/small/home-disabled.gif') !important; } */
+
+#stop-button > .toolbarbutton-icon { background-image: url('img/icons/stop.gif') !important; }
+/*#stop-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/stop-hover.gif') !important; }*/
+#stop-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/stop-active.gif') !important; }
+#stop-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/stop-disabled.gif') !important; }
+
+#print-button > .toolbarbutton-icon { background-image: url('img/icons/print.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#print-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/print-active.gif') !important; }
+#print-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/print-disabled.gif') !important; }
+
+
+#sidebar-button .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#sidebar-button:not([disabled]):active .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
+#sidebar-button[disabled] .toolbarbutton-badge-stack { background-image: url('img/icons/guide.gif') !important; }
+
+
+#unified-extensions-button > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
+#unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/shop-2.gif') !important; }
+
+
+#fxa-toolbar-menu-button .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
+/*#print-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/print-hover.gif') !important; }*/
+#fxa-toolbar-menu-button:not([disabled]):active .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
+#fxa-toolbar-menu-button[disabled] .toolbarbutton-badge-stack { background-image: url('img/icons/my.gif') !important; }
+
+#bookmarks-menu-button > .toolbarbutton-icon { background-image: url('img/icons/small/bookmark-folder-button.gif') !important; }
+/*#bookmarks-menu-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/bookmark-hover.png') !important; }*/
+#bookmarks-menu-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/small/bookmark-folder-button.gif') !important; }
+#bookmarks-menu-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/small/bookmark-folder-button.gif') !important; }
+
+
+
+#home-button,
+#bookmarks-menu-button {
+    .toolbarbutton-icon {
+        background-size: 24px !important;
+    }
+}
+
+
+#fxa-toolbar-menu-button .avatar-container { display: none !important; }

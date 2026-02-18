@@ -5,6 +5,7 @@ const config = {
   // 1. The entry points: Your 3 specific theme files
   entryPoints: [
     'src/themes/Mozilla_Classic/chrome/userChrome.css',
+    'src/themes/Mozilla_Modern/chrome/userChrome.css',
     'src/themes/Firefox_Winstripe/chrome/userChrome.css'
   ],
 

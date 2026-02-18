@@ -1,0 +1,152 @@
+
+
+/* Toolbar handles and backgrounds */
+#navigator-toolbox {
+}
+
+#PersonalToolbar,#toolbar-menubar,#nav-bar {
+	padding-left: 12px !important;
+}
+
+
+#PersonalToolbar,#toolbar-menubar,#nav-bar{
+
+	@media (prefers-color-scheme: light) {
+		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	}
+	@media(prefers-color-scheme: dark) {
+			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+	}
+}
+#toolbar-menubar {
+	@media (prefers-color-scheme: light) {
+		background: transparent url('img/toolbar_handle_noarrow.gif') left top no-repeat !important;
+	}
+	@media(prefers-color-scheme: dark) {
+			background: transparent url('img/toolbar_handle_noarrow-darkmode.gif') left top no-repeat !important;
+	}
+}
+
+
+/* Text Label Position Fix */
+#navbar {
+	.toolbarbutton-text {
+		display: flex !important;
+		align-items: flex-end;
+	}
+}
+
+
+#nav-bar {
+	.toolbarbutton-1,
+	.toolbaritem-combined-buttons {
+		align-items: stretch !important;
+	}
+
+	.toolbarbutton-text {
+		display: flex !important;
+		align-items: flex-end;
+	}
+
+	.toolbarbutton-badge-stack {
+		min-height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+		padding-top: 0 !important;
+		align-items: center !important;
+		/*min-width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;*/
+	}
+
+	.toolbarbutton-badge {
+		position: relative;
+		top: 6px;
+	}
+}
+
+
+#nav-bar,
+#TabsToolbar {
+	.toolbarbutton-1:not(.webextension-browser-action),
+	.toolbaritem-combined-buttons.unified-extensions-item {
+		&:not([disabled]) {
+			border: unset !important;
+			border-width: 1px !important;
+			border-style: solid !important;
+			border-color: transparent !important;
+		}
+	}
+
+	/* limit extenion name titles in the toolbar */
+	.webextension-browser-action,
+	.webextension-browser-action[label] {
+		padding-left: 2px !important;
+		padding-right: 2px !important;
+
+		.toolbarbutton-text {
+			max-width: 7ch !important;
+
+			/* &::before {
+				text-overflow: clip;
+			} */
+		}
+	}
+
+
+	.toolbarbutton-1:not(.webextension-browser-action),
+	.unified-extensions-item {
+		&:not([disabled]) {
+			&:hover,
+			&:active,
+			&:has([open]) {
+				border-color: var(--zilla-toolbar-border-color-verydark) !important;
+			}
+		}
+	}
+}
+
+
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#print-button,
+#home-button,
+#sidebar-button,
+#unified-extensions-button,
+#fxa-toolbar-menu-button,
+#bookmarks-menu-button,
+#nav-bar-overflow-button {
+	&,.toolbarbutton-1,.toolbarbutton-1[label] {
+		.toolbarbutton-icon,
+		.toolbarbutton-badge-stack {
+			list-style-image: none !important;
+			margin: auto !important;
+			display: flex !important;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: unset;
+		
+			margin: auto !important;
+			position: relative;
+			top: 6px;
+			width: var(--zilla-toolbar-button-icon-size) !important;
+			height: var(--zilla-toolbar-button-icon-size) !important;
+		}
+	}
+}
+
+
+#nav-bar-overflow-button {
+	min-width: 0;
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	
+	.toolbarbutton-icon {
+		background-image: url('img/icons/small/tbgrip-arrow.gif');
+	}
+
+	.toolbarbutton-animatable-box { display: none !important; }
+	.toolbarbutton-text { display: none !important; }
+	
+	/* box-shadow: var(--zilla-win98-button-border-shadow); */
+}
+
+
