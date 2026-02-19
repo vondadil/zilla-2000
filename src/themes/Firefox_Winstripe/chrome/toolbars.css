@@ -61,7 +61,10 @@
 #new-tab-button,
 #new-window-button,
 #history-panelmenu,
-#PanelUI-menu-button {
+#PanelUI-menu-button,
+#sidebar-button,
+#fullscreen-button,
+#logins-button  {
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		&,
 		.toolbarbutton-icon,
@@ -88,6 +91,12 @@
 
 		.toolbarbutton-badge-stack {
 			display: unset;
+		}
+
+		.toolbarbutton-badge.feature-callout {
+			position: absolute;
+			top: 0;
+			right: 0;
 		}
 	}
 

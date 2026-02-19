@@ -72,3 +72,29 @@ new-window-button
 /*#unified-extensions-button:not([disabled]):hover > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions-hover.png') !important; }*/
 #unified-extensions-button:not([disabled]):active > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
 #unified-extensions-button[disabled] > .toolbarbutton-icon { background-image: url('img/icons/toolbar/extensions.png') !important; }
+
+
+
+/* Single Icon Buttons */
+#sidebar-button .toolbarbutton-icon,
+#sidebar-button:not([disabled]):active .toolbarbutton-icon,
+#sidebar-button[disabled] .toolbarbutton-icon {
+    background-image: url('img/marchmountain_xp/OE Folder List.png') !important;
+    background-size: 24px !important;
+}
+
+
+#fullscreen-button .toolbarbutton-icon,
+#fullscreen-button:not([disabled]):active .toolbarbutton-icon,
+#fullscreen-button[disabled] .toolbarbutton-icon {
+    background-image: url('img/marchmountain_xp/Full Screen.png') !important;
+    background-size: 24px !important;
+}
+
+
+#logins-button .toolbarbutton-icon,
+#logins-button:not([disabled]):active .toolbarbutton-icon,
+#logins-button[disabled] .toolbarbutton-icon {
+    background-image: url('img/marchmountain_xp/Key.png') !important;
+    background-size: 24px !important;
+}

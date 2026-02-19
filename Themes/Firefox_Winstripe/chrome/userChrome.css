@@ -541,7 +541,10 @@
 #new-tab-button,
 #new-window-button,
 #history-panelmenu,
-#PanelUI-menu-button {
+#PanelUI-menu-button,
+#sidebar-button,
+#fullscreen-button,
+#logins-button {
   &,
   .toolbarbutton-1,
   .toolbarbutton-1[label] {
@@ -570,6 +573,11 @@
     }
     .toolbarbutton-badge-stack {
       display: unset;
+    }
+    .toolbarbutton-badge.feature-callout {
+      position: absolute;
+      top: 0;
+      right: 0;
     }
   }
   &[attention] {
@@ -760,6 +768,24 @@ new-window-button #history-panelmenu > .toolbarbutton-icon {
 }
 #unified-extensions-button[disabled] > .toolbarbutton-icon {
   background-image: url("./img/icons/toolbar/extensions.png") !important;
+}
+#sidebar-button .toolbarbutton-icon,
+#sidebar-button:not([disabled]):active .toolbarbutton-icon,
+#sidebar-button[disabled] .toolbarbutton-icon {
+  background-image: url("./img/marchmountain_xp/OE Folder List.png") !important;
+  background-size: 24px !important;
+}
+#fullscreen-button .toolbarbutton-icon,
+#fullscreen-button:not([disabled]):active .toolbarbutton-icon,
+#fullscreen-button[disabled] .toolbarbutton-icon {
+  background-image: url("./img/marchmountain_xp/Full Screen.png") !important;
+  background-size: 24px !important;
+}
+#logins-button .toolbarbutton-icon,
+#logins-button:not([disabled]):active .toolbarbutton-icon,
+#logins-button[disabled] .toolbarbutton-icon {
+  background-image: url("./img/marchmountain_xp/Key.png") !important;
+  background-size: 24px !important;
 }
 
 /* src/themes/Firefox_Winstripe/chrome/tabs.css */

@@ -117,7 +117,7 @@
 #unified-extensions-button,
 #fxa-toolbar-menu-button,
 #bookmarks-menu-button,
-#nav-bar-overflow-button {
+#nav-bar-overflow-button{
 	&,.toolbarbutton-1,.toolbarbutton-1[label] {
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
