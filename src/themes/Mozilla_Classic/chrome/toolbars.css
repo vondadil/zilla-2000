@@ -28,24 +28,11 @@
 }
 
 
-/* Text Label Position Fix */
-#navbar {
-	.toolbarbutton-text {
-		display: flex !important;
-		align-items: flex-end;
-	}
-}
-
 
 #nav-bar {
 	.toolbarbutton-1,
 	.toolbaritem-combined-buttons {
 		align-items: stretch !important;
-	}
-
-	.toolbarbutton-text {
-		display: flex !important;
-		align-items: flex-end;
 	}
 
 	.toolbarbutton-badge-stack {

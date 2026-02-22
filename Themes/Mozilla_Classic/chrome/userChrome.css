@@ -518,6 +518,12 @@
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-text {
   min-height: var(--zilla-toolbar-label-height) !important;
 }
+#nav-bar {
+  .toolbarbutton-text {
+    display: flex !important;
+    align-items: flex-end;
+  }
+}
 
 /* src/themes/Mozilla_Classic/chrome/toolbars.css */
 #navigator-toolbox {
@@ -545,20 +551,10 @@
     background: transparent url("./img/toolbar_handle_noarrow-darkmode.gif") left top no-repeat !important;
   }
 }
-#navbar {
-  .toolbarbutton-text {
-    display: flex !important;
-    align-items: flex-end;
-  }
-}
 #nav-bar {
   .toolbarbutton-1,
   .toolbaritem-combined-buttons {
     align-items: stretch !important;
-  }
-  .toolbarbutton-text {
-    display: flex !important;
-    align-items: flex-end;
   }
   .toolbarbutton-badge-stack {
     min-height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
