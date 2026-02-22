@@ -41,10 +41,28 @@ const config = {
 };
 
 // Run the build
-try {
-  await esbuild.build(config);
-  console.log('⚡ CSS Bundling complete!');
-} catch (e) {
-  console.error('Build failed');
-  process.exit(1);
+if (process.argv.includes('--watch')) {
+  try {
+    const ctx = await esbuild.context(config);
+    await ctx.watch();
+    console.log('Watching for changes...');
+    console.log('⚡ CSS Bundling complete!');
+  }
+  catch (e) {
+    console.error('Build failed');
+    process.exit(1);
+  }
+}
+else {
+  try {
+    const ctx = await esbuild.context(config);
+    await ctx.rebuild();
+    await ctx.dispose();
+    console.log('⚡ CSS Bundling complete!');
+  
+  }
+  catch (e) {
+    console.error('Build failed');
+    process.exit(1);
+  }
 }

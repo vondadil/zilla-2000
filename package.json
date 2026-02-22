@@ -9,7 +9,8 @@
     "Firefox >= 145"
   ],
   "scripts": {
-  "build:css": "node build.js"
+  "build": "node build.js",
+  "watch": "node build.js --watch"
   },
   "devDependencies": {
     "esbuild": "^0.27.3"
