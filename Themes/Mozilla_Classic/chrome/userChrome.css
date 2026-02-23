@@ -60,10 +60,15 @@
     --zilla-toolbar-border-color-slightlydark: rgba(0,0,0,0.2);
     --zilla-toolbar-border-color-slightlylight: rgba(255,255,255,0.1);
   }
-  --zilla-ui-bg-color-light: #d4d0c8;
+  --zilla-ui-bg-color-light: rgba(var(--zilla-ui-bg-color-light-rgba,1));
+  --zilla-ui-bg-color-light-rgba:
+    212,208,200;
   --zilla-ui-bg-color: var(--zilla-ui-bg-color-light);
+  --zilla-ui-bg-color-rgba: var(--zilla-ui-bg-color-light-rgba);
   @media (prefers-color-scheme: dark) {
-    --zilla-ui-bg-color: #333;
+    --zilla-ui-bg-color-rgba:
+      51,51,51;
+    --zilla-ui-bg-color: rgba(var(--zilla-ui-bg-color-rgba,1));
   }
   --zilla-win98-button-border-shadow:
     inset -1px -1px var(--zilla-toolbar-border-color-dark),
@@ -504,8 +509,8 @@
   padding-top: 0px !important;
   background-color: transparent !important;
   overflow: hidden;
-  max-width: 8ch;
-  min-width: 6ch;
+  max-width: 7ch;
+  min-width: 4ch;
 }
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-text::before {
   margin-inline: auto;
@@ -577,14 +582,6 @@
       border-color: transparent !important;
     }
   }
-  .webextension-browser-action,
-  .webextension-browser-action[label] {
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    .toolbarbutton-text {
-      max-width: 7ch !important;
-    }
-  }
   .toolbarbutton-1:not(.webextension-browser-action),
   .unified-extensions-item {
     &:not([disabled]) {
@@ -624,6 +621,9 @@
       width: var(--zilla-toolbar-button-icon-size) !important;
       height: var(--zilla-toolbar-button-icon-size) !important;
     }
+    .toolbarbutton-text {
+      position: relative;
+    }
   }
 }
 #nav-bar-overflow-button {
@@ -638,6 +638,19 @@
   }
   .toolbarbutton-text {
     display: none !important;
+  }
+}
+#nav-bar {
+  .webextension-browser-action,
+  .webextension-browser-action[label] {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    min-width: 42px;
+    .toolbarbutton-icon,
+    .toolbarbutton-badge-stack {
+      width: var(--zilla-toolbar-button-icon-size) !important;
+      height: var(--zilla-toolbar-button-icon-size) !important;
+    }
   }
 }
 

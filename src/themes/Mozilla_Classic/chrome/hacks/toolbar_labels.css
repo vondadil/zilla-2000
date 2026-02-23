@@ -25,8 +25,12 @@ See the above repository for full source, updates as well as full license text. 
 	padding-top: 0px !important;
 	background-color: transparent !important;
 	overflow: hidden;
-	max-width: 8ch;
-	min-width: 6ch;
+	max-width: 7ch;
+	min-width: 4ch;
+
+	/* @media(max-width: 1200px) {
+		min-width: 3ch;
+	} */
 	
 }
 #nav-bar .toolbarbutton-1[label] > .toolbarbutton-text::before{
