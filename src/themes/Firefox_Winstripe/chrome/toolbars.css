@@ -47,6 +47,13 @@
 	}
 }
 
+#nav-bar {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
 /* Remove default icons from toolbar buttons that have their icons replaced in icon.css */
 #back-button,
 #forward-button,

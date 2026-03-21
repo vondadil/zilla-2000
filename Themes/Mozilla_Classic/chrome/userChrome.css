@@ -489,6 +489,11 @@
 }
 
 /* src/themes/Mozilla_Classic/chrome/variables.css */
+:root {
+  --zilla-toolbar-button-icon-size: 28px;
+  --zilla-toolbar-button-icon-size-constrained: 16px;
+  --zilla-webextenion-icon-size: 16px;
+}
 
 /* src/themes/Mozilla_Classic/chrome/hacks/toolbar_labels.css */
 #nav-bar .toolbarbutton-1[label] {
@@ -648,8 +653,13 @@
     min-width: 42px;
     .toolbarbutton-icon,
     .toolbarbutton-badge-stack {
-      width: var(--zilla-toolbar-button-icon-size) !important;
-      height: var(--zilla-toolbar-button-icon-size) !important;
+      min-height: var(--zilla-webextenion-icon-size) !important;
+      min-width: var(--zilla-webextenion-icon-size) !important;
+      background-position: center;
+      flex-grow: 1;
+    }
+    .toolbarbutton-text {
+      flex-grow: 0;
     }
   }
 }

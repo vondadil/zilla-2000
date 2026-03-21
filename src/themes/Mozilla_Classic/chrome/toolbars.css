@@ -139,8 +139,14 @@
 
 		.toolbarbutton-icon,
 		.toolbarbutton-badge-stack {
-			width: var(--zilla-toolbar-button-icon-size) !important;
-			height: var(--zilla-toolbar-button-icon-size) !important;
+			min-height: var(--zilla-webextenion-icon-size) !important;
+			min-width: var(--zilla-webextenion-icon-size) !important;
+			background-position: center;
+			flex-grow: 1;
+		}
+
+		.toolbarbutton-text {
+			flex-grow: 0;
 		}
 	}
 }

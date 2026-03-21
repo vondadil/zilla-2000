@@ -490,9 +490,9 @@
 
 /* src/themes/Firefox_Winstripe/chrome/variables.css */
 :root {
-  --zilla-toolbar-button-icon-size: 32px;
+  --zilla-toolbar-button-icon-size: 28px;
   --zilla-toolbar-button-icon-size-constrained: 16px;
-  --zilla-webextenion-icon-size: 20px;
+  --zilla-webextenion-icon-size: 16px;
 }
 
 /* src/themes/Firefox_Winstripe/chrome/toolbars.css */
@@ -532,6 +532,12 @@
   & > .toolbarbutton-badge-stack {
     padding: 0 !important;
   }
+}
+#nav-bar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 #back-button,
 #forward-button,
