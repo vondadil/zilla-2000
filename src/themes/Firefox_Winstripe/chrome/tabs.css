@@ -11,6 +11,9 @@
 
     .toolbarbutton-1 {
         margin-bottom: 0 !important; /* somehow the tab bar UI jumps on hover with this style from common/tabs.css enabled, so it is set to 0 here to fix the jumping */
+
+        position: relative;
+        top: -2px;
     }
 
     .tabbrowser-tab {
@@ -34,14 +37,14 @@
 
 
 
-#tabs-newtab-button {
+#tabs-newtab-button, #tabs-newtab-button.toolbarbutton-1 {
 	background-image: url('img/icons/toolbar/tab_new.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
     background-color: transparent !important;
     position: relative;
-    top: 2px;
+    top: 1px;
 
     &:hover, &:active {
         box-shadow: none !important;
