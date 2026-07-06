@@ -477,7 +477,9 @@
   }
   .toolbarbutton-1 {
     min-width: 5ch;
-    margin-bottom: 4px !important;
+    width: calc(var(--tab-min-height) + 3px);
+    height: calc(var(--tab-min-height) + 3px);
+    padding: 2px;
     &:hover,
     &[open],
     &:active {
@@ -835,11 +837,6 @@ new-window-button #history-panelmenu > .toolbarbutton-icon {
     }
   }
   .toolbarbutton-1 {
-    margin-bottom: 0 !important;
-    max-height: var(--tab-min-height);
-    position: relative;
-    top: 2px;
-    left: 0;
   }
   .tabbrowser-tab {
     &:hover {
@@ -863,21 +860,16 @@ new-window-button #history-panelmenu > .toolbarbutton-icon {
   background-size: 20px;
   background-color: transparent !important;
   position: relative;
-  top: 4px;
-  left: 0;
+  top: 3px;
   &:hover,
   &:active {
     box-shadow: none !important;
     border: none !important;
   }
   &:hover {
-    top: 4px;
-    left: 1px;
     background-image: url("./img/icons/toolbar/tab_new-hover.png");
   }
   &:active {
-    top: 5px;
-    left: 1px;
     position: relative;
   }
 }

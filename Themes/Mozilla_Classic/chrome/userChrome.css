@@ -477,7 +477,9 @@
   }
   .toolbarbutton-1 {
     min-width: 5ch;
-    margin-bottom: 4px !important;
+    width: calc(var(--tab-min-height) + 3px);
+    height: calc(var(--tab-min-height) + 3px);
+    padding: 2px;
     &:hover,
     &[open],
     &:active {
