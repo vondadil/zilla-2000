@@ -272,6 +272,7 @@
   box-shadow: var(--zilla-win98-input-border-shadow);
 }
 .urlbar-input-container {
+  border-radius: 0 !important;
   border: none !important;
   background: white !important;
   @media (prefers-color-scheme: dark) {
@@ -281,13 +282,15 @@
 }
 .urlbar-input-box {
   padding-left: 6px;
+  border-radius: 0 !important;
 }
 .urlbar-background {
   background-color: transparent !important;
   box-shadow: unset !important;
   border: unset !important;
+  border-radius: 0 !important;
 }
-#urlbar[breakout-extend=true] {
+#urlbar[breakout-extend] {
   margin-left: unset !important;
   width: var(--urlbar-width) !important;
   height: var(--urlbar-height) !important;
@@ -309,13 +312,17 @@
     top: calc(var(--urlbar-container-height) /2 - var(--urlbar-height)/2) !important;
   }
 }
-#urlbar-searchmode-switcher {
+.searchmode-switcher {
   margin: 1px !important;
   background: var(--zilla-ui-bg-color) !important;
   box-shadow: var(--zilla-win98-button-border-shadow);
+  border-radius: 0;
 }
-#urlbar-searchmode-switcher:active,
-#urlbar-searchmode-switcher[open=true] {
+#main-button .button-background {
+  background: none !important;
+}
+.searchmode-switcher:active,
+.searchmode-switcher[open] {
   box-shadow: var(--zilla-win98-button-border-shadow-active);
 }
 .searchmode-switcher-chicklet {

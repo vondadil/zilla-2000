@@ -20,6 +20,7 @@
 }
 
 .urlbar-input-container {
+    border-radius: 0 !important;
     border: none !important;
     background: white !important;
     @media (prefers-color-scheme: dark) {
@@ -29,12 +30,14 @@
 }
 .urlbar-input-box {
     padding-left: 6px;
+    border-radius: 0 !important;
 }
 
 .urlbar-background {
     background-color: transparent !important;
     box-shadow: unset !important;
     border: unset !important;
+    border-radius: 0 !important;
 }
 
 /*[urlbar-slot] {
@@ -44,7 +47,7 @@
 }*/
 
 /* Search Breakout Opened */
-#urlbar[breakout-extend="true"] {
+#urlbar[breakout-extend] {
     margin-left: unset !important;
     width: var(--urlbar-width) !important;
     height: var(--urlbar-height) !important;
@@ -75,12 +78,16 @@
 
 /* Search Switchers */
 
-#urlbar-searchmode-switcher {
+.searchmode-switcher {
     margin: 1px !important;
     background: var(--zilla-ui-bg-color) !important;
     box-shadow: var(--zilla-win98-button-border-shadow);
+    border-radius: 0;
 }
-#urlbar-searchmode-switcher:active,#urlbar-searchmode-switcher[open="true"] {
+#main-button .button-background {
+    background: none !important;
+}
+.searchmode-switcher:active,.searchmode-switcher[open] {
     box-shadow: var(--zilla-win98-button-border-shadow-active);
 }
 .searchmode-switcher-chicklet {
