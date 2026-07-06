@@ -358,6 +358,9 @@
   padding-top: 2px !important;
   padding-left: 4px;
 }
+#tabbrowser-tabs:before {
+  border: none !important;
+}
 #tabbrowser-tabs:not([orient=vertical]) {
   border-inline-start: unset !important;
   #tabbrowser-arrowscrollbox,

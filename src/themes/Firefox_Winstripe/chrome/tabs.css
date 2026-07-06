@@ -1,3 +1,8 @@
+:root {
+    --tab-min-height: 26px !important;
+}
+
+
 #TabsToolbar {
     .tab-close-button {
        
@@ -14,6 +19,7 @@
 
         position: relative;
         top: -2px;
+        left: 0;
     }
 
     .tabbrowser-tab {
@@ -45,6 +51,7 @@
     background-color: transparent !important;
     position: relative;
     top: 1px;
+    left: 0;
 
     &:hover, &:active {
         box-shadow: none !important;
@@ -53,10 +60,13 @@
 
     /* &,&:hover,&:active { &,.toolbarbutton-icon { background-color: transparent !important; } } */
 
-    &:hover { background-image: url('img/icons/toolbar/tab_new-hover.png'); }
-    &:active {
-        position: relative;
-        top: 3px;
+    &:hover {
         left: 1px;
+        background-image: url('img/icons/toolbar/tab_new-hover.png');
+    }
+    &:active {
+        left: 1px;
+        position: relative;
+        top: 2px;
     }
 }

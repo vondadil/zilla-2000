@@ -14,6 +14,14 @@
 /* Horizontal Tabs */
 
 
+/* hide the seperator in the tab bar (eg. when firefox view is enabled)*/
+
+
+#tabbrowser-tabs:before {
+	border: none !important;
+/* 	border-inline: none !important; */
+}
+
 
 #tabbrowser-tabs:not([orient="vertical"]) {
 	border-inline-start: unset !important;

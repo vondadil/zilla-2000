@@ -358,6 +358,9 @@
   padding-top: 2px !important;
   padding-left: 4px;
 }
+#tabbrowser-tabs:before {
+  border: none !important;
+}
 #tabbrowser-tabs:not([orient=vertical]) {
   border-inline-start: unset !important;
   #tabbrowser-arrowscrollbox,
@@ -807,6 +810,9 @@ new-window-button #history-panelmenu > .toolbarbutton-icon {
 }
 
 /* src/themes/Firefox_Winstripe/chrome/tabs.css */
+:root {
+  --tab-min-height: 26px !important;
+}
 #TabsToolbar {
   .tab-close-button {
     &:hover,
@@ -819,6 +825,7 @@ new-window-button #history-panelmenu > .toolbarbutton-icon {
     margin-bottom: 0 !important;
     position: relative;
     top: -2px;
+    left: 0;
   }
   .tabbrowser-tab {
     &:hover {
@@ -843,18 +850,20 @@ new-window-button #history-panelmenu > .toolbarbutton-icon {
   background-color: transparent !important;
   position: relative;
   top: 1px;
+  left: 0;
   &:hover,
   &:active {
     box-shadow: none !important;
     border: none !important;
   }
   &:hover {
+    left: 1px;
     background-image: url("./img/icons/toolbar/tab_new-hover.png");
   }
   &:active {
-    position: relative;
-    top: 3px;
     left: 1px;
+    position: relative;
+    top: 2px;
   }
 }
 
