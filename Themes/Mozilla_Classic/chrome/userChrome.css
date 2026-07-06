@@ -300,7 +300,7 @@
     @media (prefers-color-scheme: dark) {
       background: var(--zilla-ui-bg-color);
     }
-    top: 10px;
+    top: 4px;
     width: 100% !important;
     margin-left: 0 !important;
     left: 0;
@@ -312,18 +312,28 @@
     top: calc(var(--urlbar-container-height) /2 - var(--urlbar-height)/2) !important;
   }
 }
-.searchmode-switcher {
-  margin: 1px !important;
-  background: var(--zilla-ui-bg-color) !important;
-  box-shadow: var(--zilla-win98-button-border-shadow);
+.searchmode-switcher,
+#identity-icon-box,
+#trust-icon-container {
   border-radius: 0;
+  margin-bottom: -1px;
 }
-#main-button .button-background {
+#main-button .button-background,
+.identity-box-button {
   background: none !important;
 }
-.searchmode-switcher:active,
-.searchmode-switcher[open] {
-  box-shadow: var(--zilla-win98-button-border-shadow-active);
+.searchmode-switcher,
+#identity-icon-box,
+#trust-icon-container {
+  height: auto !important;
+  background: var(--zilla-ui-bg-color) !important;
+  box-shadow: var(--zilla-win98-button-border-shadow);
+  border-radius: 0 !important;
+  &:active,
+  &[open] {
+    box-shadow: var(--zilla-win98-button-border-shadow-active);
+  }
+  margin-right: 2px;
 }
 .searchmode-switcher-chicklet {
   margin: 4px 3px 3px;

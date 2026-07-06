@@ -1,3 +1,7 @@
+:root {
+	--urlbar-container-padding: 0;
+}
+
 #nav-bar {
 	.toolbarbutton-1 {
 		min-width: 42px;
