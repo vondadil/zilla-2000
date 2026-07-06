@@ -9,6 +9,10 @@
         }
     }
 
+    .toolbarbutton-1 {
+        margin-bottom: 0 !important; /* somehow the tab bar UI jumps on hover with this style from common/tabs.css enabled, so it is set to 0 here to fix the jumping */
+    }
+
     .tabbrowser-tab {
         &:hover {
             .tab-close-button {
@@ -37,7 +41,7 @@
     background-size: 20px;
     background-color: transparent !important;
     position: relative;
-    top: 4px;
+    top: 2px;
 
     &:hover, &:active {
         box-shadow: none !important;
@@ -49,7 +53,7 @@
     &:hover { background-image: url('img/icons/toolbar/tab_new-hover.png'); }
     &:active {
         position: relative;
-        top: 5px;
+        top: 3px;
         left: 1px;
     }
 }
